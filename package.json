@@ -1,0 +1,32 @@
+{
+  "name": "apex-web-tools",
+  "version": "1.0.0",
+  "description": "Tools for apex web",
+  "main": "index.js",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "pot-merge": "^2.2.0",
+    "redux-i18n": "^1.5.13",
+    "shelljs": "^0.8.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphapoint/apex-web-tools.git"
+  },
+  "keywords": [
+    "apex",
+    "tools"
+  ],
+  "author": "Apex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphapoint/apex-web-tools/issues"
+  },
+  "homepage": "https://github.com/alphapoint/apex-web-tools#readme",
+  "scripts": {
+    "extract": "i18n_extract --source=tmp",
+    "import-po": "i18n_import --translations=local/translation",
+    "pot-merge": "pot-merge -a static/app.pot -b locales/template.pot -o local/translation/template.pot"
+  }
+}

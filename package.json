@@ -29,9 +29,6 @@
   },
   "homepage": "https://github.com/alphapoint/apex-web-tools#readme",
   "scripts": {
-    "extract": "i18n_extract --source=tmp",
-    "import-po": "i18n_import --translations=local/translation",
-    "pot-merge": "pot-merge -a static/app.pot -b locales/template.pot -o local/translation/template.pot"
   },
   "filea": [
     "src"

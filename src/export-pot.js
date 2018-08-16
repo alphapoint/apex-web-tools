@@ -4,7 +4,7 @@ const shell = require('shelljs');
 const path = require('path');
 
 const tempFile = path.join('tmp', 'KYCTextValues.js');
-const configFile = path.join('.','..', 'local', 'config.js');
+const configFile = path.join(process.cwd(), 'local', 'config.js');
 
 
 function createTempFileForKYCTextValues() {
@@ -48,6 +48,7 @@ function cleanUp() {
 
 function init() {
   global.window = {};
+
   try {
     cleanUp();
 
@@ -56,8 +57,8 @@ function init() {
     const kycContent = fs.readFileSync(tempFile, 'utf8');
 
     if(kycContent) {
-      shell.exec('npm run extract');
-      shell.exec('npm run pot-merge');
+      shell.exec('i18n_extract --source=tmp');
+      shell.exec(`pot-merge -a static/app.pot -b locales/template.pot -o local/translation/template.pot`);
     } else {
       const appPotPath = path.join("static", "app.pot");
       const templatePotPath = path.join("local", "translation", "template.pot");

@@ -10,7 +10,7 @@ function init() {
   const header = 'window.APEXTranslations = ';
   try {
 
-    shell.exec('npm run import-po');
+    shell.exec('i18n_import --translations=local/translation');
 
     const translationsContent = fs.readFileSync(translationsFile, 'utf8');
 

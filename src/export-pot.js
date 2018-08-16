@@ -69,4 +69,4 @@ function init() {
   }
 }
 
-module.exports.exportPot = init;
+init();

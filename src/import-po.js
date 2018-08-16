@@ -6,8 +6,7 @@ const translationsFile = path.join('local', 'translation', 'translations.js');
 
 
 function init() {
-  global.window = {};
-  const header = 'window.APEXTranslations = '
+  const header = 'window.APEXTranslations = ';
   try {
 
     shell.exec('npm run import-po');
@@ -26,4 +25,4 @@ function init() {
   }
 }
 
-module.exports.importPo = init;
+init();

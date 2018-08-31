@@ -400,7 +400,7 @@ msgid "Enable Two-Factor Authentication"
 msgstr ""
 
 #: src/components/EnableTwoFactorAuthComponent.js
-msgid "2FA Enabled"
+msgid "Enable 2FA"
 msgstr ""
 
 #: src/components/EnableTwoFactorAuthComponent.js
@@ -569,7 +569,7 @@ msgid "Set Language"
 msgstr ""
 
 #: src/components/LoginFormComponent.js
-msgid "Log In to APEX"
+msgid "Log In to {n}"
 msgstr ""
 
 #: src/components/LoginFormComponent.js
@@ -858,11 +858,7 @@ msgstr ""
 #: src/components/OrderHistoryComponents/InactiveOrdersComponent.js
 #: src/components/OrderHistoryComponents/OpenOrdersComponent.js
 #: src/components/OrderHistoryComponents/OrderHistoryTradeReportsComponent.js
-#: src/components/RecentTradesComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
-#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
-msgid "Time"
+msgid "Date/Time"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/FilledOrdersComponent.js
@@ -917,16 +913,6 @@ msgstr ""
 
 #: src/components/PageFooter/PageFooterComponent.js
 msgid "{n}™ {y}. All Rights Reserved."
-msgstr ""
-
-#: src/components/PageFooter/PageFooterComponent.js
-msgid "Terms & Conditions"
-msgstr ""
-
-#: src/components/PageFooter/PageFooterComponent.js
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
-msgid "Privacy Policy"
 msgstr ""
 
 #. January
@@ -1118,7 +1104,19 @@ msgid "Date range:"
 msgstr ""
 
 #: src/components/RecentActivity/RecentActivityComponent.js
+#: src/components/TransferRequests/TransferRequestItemComponent.js
 msgid "to"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "Clear Filters"
+msgstr ""
+
+#: src/components/RecentTradesComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
+#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
+msgid "Time"
 msgstr ""
 
 #: src/components/RecentTradesComponent.js
@@ -1668,6 +1666,11 @@ msgstr ""
 
 #: src/components/RetailSignupFormComponent.js
 #: src/components/SignupFormComponent.js
+msgid "Privacy Policy"
+msgstr ""
+
+#: src/components/RetailSignupFormComponent.js
+#: src/components/SignupFormComponent.js
 #: src/components/VerifyEmailComponent.js
 msgid "Login"
 msgstr ""
@@ -1747,6 +1750,7 @@ msgstr ""
 #: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmHeaderComponent.js
 #: src/components/SendReceiveSidePane/SendReceiveFormTabs/SendReceiveFormTabsComponent.js
+#: src/components/TransferRequests/TransferRequestItemComponent.js
 #: src/components/WalletNavItems/CryptoNavItemsComponent.js
 msgid "Send"
 msgstr ""
@@ -1783,6 +1787,14 @@ msgstr ""
 
 #: src/components/ThemeEditorComponent.js
 msgid "Edit all the colors used in the app"
+msgstr ""
+
+#: src/components/TransferRequests/TransferRequestItemComponent.js
+msgid "Approve"
+msgstr ""
+
+#: src/components/TransferRequests/TransferRequestItemComponent.js
+msgid "Reject"
 msgstr ""
 
 #: src/components/TwoFactorAuthFormComponent.js
@@ -1833,6 +1845,10 @@ msgstr ""
 
 #: src/components/WalletNavItems/CryptoNavItemsComponent.js
 msgid "Receive"
+msgstr ""
+
+#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
+msgid "You have insufficient balance"
 msgstr ""
 
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
@@ -1945,6 +1961,10 @@ msgstr ""
 
 #: src/redux/actions/transferActions.js
 msgid "Transfer succeeded"
+msgstr ""
+
+#: src/redux/actions/transferRequestActions.js
+msgid "Failed to confirm transfer request"
 msgstr ""
 
 #: src/redux/actions/userActions.js

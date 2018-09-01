@@ -7,68 +7,73 @@ const tempFile = path.join('tmp', 'KYCTextValues.js');
 const configFile = path.join(process.cwd(), 'local', 'config.js');
 
 
-function createTempFileForKYCTextValues() {
-  require(configFile);
-  const {KYC} = window.APEXConfig;
+function createTempFileForConfigTextValues() {
+    require(configFile);
+    const {KYC, Footer} = window.APEXConfig;
 
-  const stringsFromKyc = extractStrings(KYC);
+    const stringsFromKyc = extractStrings(KYC);
+    const stringsFromFooterLinks = extractFooterStrings(Footer.links);
 
-  const result = [...stringsFromKyc].map(element => {
-    return `// this.context.t('${element}')`;
-  });
+    const result = [...stringsFromKyc, ...stringsFromFooterLinks].map(element => {
+        return `// this.context.t('${element}')`;
+    });
 
-  fs.outputFileSync(tempFile, result.join('\n'));
+    fs.outputFileSync(tempFile, result.join('\n'));
 }
 
 function extractStrings(obj) {
-  const result = new Set();
+    const result = new Set();
 
-  for (let key in obj) {
-    const value = obj[key];
+    for (let key in obj) {
+        const value = obj[key];
 
-    if (typeof (value) === 'string') {
-      result.add(value);
+        if (typeof (value) === 'string') {
+            result.add(value);
+        }
+
+        if (typeof (value) === 'object') {
+            const values = extractStrings(value);
+            values.forEach(element => {
+                result.add(element);
+            })
+        }
     }
 
-    if (typeof (value) === 'object') {
-      const values = extractStrings(value);
-      values.forEach(element => {
-        result.add(element);
-      })
-    }
-  }
+    return result;
+}
 
-  return result;
+function extractFooterStrings(columns) {
+    return [].concat.apply([], columns).map(item => item.text);
 }
 
 function cleanUp() {
-  fs.removeSync('tmp');
-  fs.removeSync(path.join('locales', 'template.pot'));
+    fs.removeSync('tmp');
+    fs.removeSync(path.join('locales', 'template.pot'));
 }
 
 function init() {
-  global.window = {};
+    global.window = {};
 
-  try {
-    cleanUp();
+    try {
+        cleanUp();
 
-    createTempFileForKYCTextValues();
+        createTempFileForConfigTextValues();
 
-    const kycContent = fs.readFileSync(tempFile, 'utf8');
+        const kycContent = fs.readFileSync(tempFile, 'utf8');
 
-    if(kycContent) {
-      shell.exec('i18n_extract --source=tmp');
-      shell.exec(`pot-merge -a static/app.pot -b locales/template.pot -o local/translation/template.pot`);
-    } else {
-      const appPotPath = path.join("static", "app.pot");
-      const templatePotPath = path.join("local", "translation", "template.pot");
+        if (kycContent) {
+            shell.exec('i18n_extract --source=tmp');
+            shell.exec(`pot-merge -a static/app.pot -b locales/template.pot -o local/translation/template.pot`);
+        } else {
+            const appPotPath = path.join("static", "app.pot");
+            const templatePotPath = path.join("local", "translation", "template.pot");
 
-      fs.copySync(appPotPath, templatePotPath);
+            fs.copySync(appPotPath, templatePotPath);
+        }
+
+    } finally {
+        cleanUp()
     }
-
-  } finally {
-    cleanUp()
-  }
 }
 
 init();

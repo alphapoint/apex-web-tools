@@ -187,7 +187,12 @@ msgstr ""
 #: src/components/Enable2FAForm.js
 #: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
 #: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCConfirmMitekModalComponent.js
-msgid "Confrim"
+#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
+#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
+#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
+msgid "Confirm"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/RemoveApiKeyModal.js
@@ -802,6 +807,7 @@ msgstr ""
 #: src/components/OrderHistoryComponents/WithdrawStatusComponent.js
 #: src/components/ReportBlockTradeSidePaneComponents/ConfirmBlockTradeModalComponent.js
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
 msgid "Fee"
 msgstr ""
@@ -1162,12 +1168,12 @@ msgstr ""
 
 #: src/components/ReportBlockTradeSidePaneComponents/ConfirmBlockTradeModalComponent.js
 #: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
-msgid "Confrim Buy Order"
+msgid "Confirm Buy Order"
 msgstr ""
 
 #: src/components/ReportBlockTradeSidePaneComponents/ConfirmBlockTradeModalComponent.js
 #: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
-msgid "Confrim Sell Order"
+msgid "Confirm Sell Order"
 msgstr ""
 
 #: src/components/ReportBlockTradeSidePaneComponents/ConfirmBlockTradeModalComponent.js
@@ -1427,14 +1433,6 @@ msgid "Update"
 msgstr ""
 
 #: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
-#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
-msgid "Confirm"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
 #: src/components/Retail/RetailSettings/ProfileForm/RetailProfileEditableComponent.js
 #: src/components/Retail/RetailSettings/ProfileForm/RetailUserProfileStaticComponent.js
 msgid "First Name"
@@ -1613,6 +1611,11 @@ msgid "Your withdraw ticket was created successfully."
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
+msgid "Swift"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
 msgid "Add a note (Optional)"
 msgstr ""
 
@@ -1641,7 +1644,7 @@ msgstr ""
 
 #: src/components/RetailSignupFormComponent.js
 #: src/components/SignupFormComponent.js
-msgid "Sign Up to APEX"
+msgid "{n} Sign Up"
 msgstr ""
 
 #: src/components/RetailSignupFormComponent.js
@@ -1915,8 +1918,16 @@ msgstr ""
 msgid "Last"
 msgstr ""
 
+#: src/containers/CreateApiKeyContainer.js
+msgid "Please choose at least one activity"
+msgstr ""
+
 #: src/containers/LoginFormContainer.js
 msgid "We were unable to login, check your internet connection and try refreshing the page."
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Password must contain at least 8 characters, one number, and at least one capital letter"
 msgstr ""
 
 #: src/redux/actions/confirmWithdrawActions.js

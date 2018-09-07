@@ -9,7 +9,7 @@ const configFile = path.join(process.cwd(), 'local', 'config.js');
 
 function createTempFileForConfigTextValues() {
     require(configFile);
-    const {KYC, Footer} = window.APEXConfig;
+    const {KYC, Footer} = window.APEXWebConfig;
 
     const stringsFromKyc = extractStrings(KYC);
     const stringsFromFooterLinks = extractFooterStrings(Footer.links);

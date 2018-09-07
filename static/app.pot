@@ -30,7 +30,7 @@ msgid "Create"
 msgstr ""
 
 #: src/components/AffiliateComponents/AffiliateComponent.js
-msgid "Join the AlphaPoint Affiliate Program"
+msgid "Join the {n} Affiliate Program"
 msgstr ""
 
 #: src/components/AffiliateComponents/AffiliateComponent.js
@@ -226,6 +226,7 @@ msgstr ""
 
 #: src/components/BalancesListComponent.js
 #: src/components/Retail/RetailBuySell/RetailBalancesComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
 #: src/layouts/Responsive/TrandingLayout/TradingLayoutContent1280Px.js
 #: src/layouts/Responsive/TrandingLayout/TradingLayoutContent768Px.js
 msgid "Balances"
@@ -277,11 +278,6 @@ msgid "...Select"
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositFormComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
-msgid "Your deposit ticket was created successfully."
-msgstr ""
-
-#: src/components/DepositSidePaneComponents/DepositFormComponent.js
 msgid "Select the currency to deposit."
 msgstr ""
 
@@ -305,7 +301,6 @@ msgid "Depositing cryptocurrency into the exchange is safe and easy. The address
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositWorkflows/CryptoWalletDepositWorkflowComponent.js
-#: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
 msgid "Address"
 msgstr ""
 
@@ -369,6 +364,14 @@ msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
 msgid "Place Deposit Ticket"
+msgstr ""
+
+#: src/components/DepthChartComponent.js
+msgid "Depth Chart"
+msgstr ""
+
+#: src/components/DepthChartComponent.js
+msgid "Mid Market Price"
 msgstr ""
 
 #: src/components/Disable2FAForm.js
@@ -780,9 +783,7 @@ msgstr ""
 #: src/components/OrderHistoryComponents/DepositsStatusComponent.js
 #: src/components/OrderHistoryComponents/WithdrawStatusComponent.js
 #: src/components/RecentActivity/RecentActivityComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositDetailsComponent.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
-#: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
 msgid "Amount"
 msgstr ""
 
@@ -808,7 +809,6 @@ msgstr ""
 #: src/components/ReportBlockTradeSidePaneComponents/ConfirmBlockTradeModalComponent.js
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
-#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
 msgid "Fee"
 msgstr ""
 
@@ -1154,7 +1154,6 @@ msgid "Product Sold"
 msgstr ""
 
 #: src/components/ReportBlockTradeSidePaneComponents/ConfirmBlockTradeModalComponent.js
-#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
 msgid "Final Amount"
 msgstr ""
 
@@ -1185,6 +1184,10 @@ msgid "Locked In"
 msgstr ""
 
 #: src/components/ReportBlockTradeSidePaneComponents/ReportBlockTradeComponent.js
+msgid "Received"
+msgstr ""
+
+#: src/components/ReportBlockTradeSidePaneComponents/ReportBlockTradeComponent.js
 msgid "Submit Report"
 msgstr ""
 
@@ -1196,6 +1199,23 @@ msgstr ""
 msgid "Sold"
 msgstr ""
 
+#: src/components/ReportSidePaneComponents/ConfirmCyclicalReportForm.js
+#: src/components/ReportSidePaneComponents/ConfirmSingleReportForm.js
+msgid "Report Type:"
+msgstr ""
+
+#: src/components/ReportSidePaneComponents/ConfirmCyclicalReportForm.js
+#: src/components/ReportSidePaneComponents/ConfirmSingleReportForm.js
+#: src/components/ReportSidePaneComponents/CreateReportFormComponent.js
+#: src/components/ReportSidePaneComponents/ScheduleReportFormComponent.js
+msgid "Start Date:"
+msgstr ""
+
+#: src/components/ReportSidePaneComponents/ConfirmCyclicalReportForm.js
+#: src/components/ReportSidePaneComponents/ScheduleReportFormComponent.js
+msgid "Frequency:"
+msgstr ""
+
 #: src/components/ReportSidePaneComponents/ConfirmCyclicalReportModal.js
 #: src/components/ReportSidePaneComponents/ReportSidePaneComponent.js
 msgid "Schedule a Cyclical Report"
@@ -1205,21 +1225,9 @@ msgstr ""
 msgid "Schedule Report"
 msgstr ""
 
-#: src/components/ReportSidePaneComponents/ConfirmCyclicalReportModal.js
-#: src/components/ReportSidePaneComponents/ConfirmSingleReportModal.js
-msgid "Report Type:"
-msgstr ""
-
-#: src/components/ReportSidePaneComponents/ConfirmCyclicalReportModal.js
-#: src/components/ReportSidePaneComponents/ConfirmSingleReportModal.js
+#: src/components/ReportSidePaneComponents/ConfirmSingleReportForm.js
 #: src/components/ReportSidePaneComponents/CreateReportFormComponent.js
-#: src/components/ReportSidePaneComponents/ScheduleReportFormComponent.js
-msgid "Start Date:"
-msgstr ""
-
-#: src/components/ReportSidePaneComponents/ConfirmCyclicalReportModal.js
-#: src/components/ReportSidePaneComponents/ScheduleReportFormComponent.js
-msgid "Frequency:"
+msgid "End Date:"
 msgstr ""
 
 #: src/components/ReportSidePaneComponents/ConfirmSingleReportModal.js
@@ -1229,11 +1237,6 @@ msgstr ""
 #: src/components/ReportSidePaneComponents/ConfirmSingleReportModal.js
 #: src/components/ReportSidePaneComponents/CreateReportFormComponent.js
 msgid "Create Report"
-msgstr ""
-
-#: src/components/ReportSidePaneComponents/ConfirmSingleReportModal.js
-#: src/components/ReportSidePaneComponents/CreateReportFormComponent.js
-msgid "End Date:"
 msgstr ""
 
 #: src/components/ReportSidePaneComponents/CreateReportFormComponent.js
@@ -1525,28 +1528,62 @@ msgid "You can freely transfer currency with other participants on the exchange.
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositDetailsComponent.js
+msgid "Step 1: Create the deposit ticket. Sender’s bank details should match with the wallet account. Third party and/or anonymous payments cannot be accepted."
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositDetailsComponent.js
+msgid "Step 2: Please deposit the stated amount to the provided bank account details."
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositDetailsComponent.js
+msgid "Note - The information from the deposit ticket will be emailed to you."
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositDetailsComponent.js
+msgid "The deposit of these funds might take up to 7 business days, and it’s subject to operator review."
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositDetailsComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatSidePaneComponent.js
+#: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
+msgid "Instructions"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
+msgid "Your deposit ticket was created successfully."
+msgstr ""
+
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
 msgid "Full Name"
 msgstr ""
 
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositDetailsComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
 msgid "Note"
 msgstr ""
 
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositDetailsComponent.js
-msgid "Deposit Details"
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
+msgid "Bank Account to Wire the Funds"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
-msgid "Add a Note (Optional)"
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+msgid "Bank Name:"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+msgid "Wire Number:"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+msgid "Account Number:"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
@@ -1554,28 +1591,15 @@ msgid "Amount to Deposit"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-msgid "Please wire the amount above to this bank."
+msgid "Step 2: Wire the funds to this account"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-msgid "Bank Name:"
+msgid "Make sure the wire transfer matches the Name and Amount stated in this Deposit Ticket."
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-msgid "Wire Number:"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-msgid "Account Number:"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-msgid "Make sure the USD that you wire matches the Deposit Ticket"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatSidePaneComponent.js
-#: src/components/SendReceiveSidePane/SendReceiveSidePaneComponent.js
-msgid "Instructions"
+msgid "A copy of this Deposit Ticket has been emailed to you"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
@@ -1584,30 +1608,31 @@ msgid "Amount to Withdraw"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
-msgid "Bank Name"
+msgid "Remaining Balance"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
-msgid "Bank Account Number"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
-msgid "Bank Address"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
-msgid "Withdraw Details"
+msgid "Note - The withdrawal and transfer of these funds might take up to 7 business days, and it’s subject to operator review."
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
 #: src/components/SendReceiveSidePane/SendAddress/SendAddressComponent.js
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
 msgid "Your withdraw ticket was created successfully."
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
+msgid "Bank Name"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
+msgid "Bank Account Number"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
+msgid "Bank Address"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
@@ -1683,14 +1708,11 @@ msgid "Forgot Password?"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/Receive/ReceiveComponent.js
-#: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
-msgid "Friend"
+msgid "Request by Email"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/Receive/ReceiveComponent.js
-#: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
-#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
-msgid "External Address"
+msgid "Show Wallet Address"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/ReceiveAddress/ReceiveAddressComponent.js
@@ -1702,20 +1724,11 @@ msgid "Or copy this address:"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/ReceiveForm/ReceiveFormComponent.js
-msgid "Requestee’s Email Address"
-msgstr ""
-
-#: src/components/SendReceiveSidePane/ReceiveForm/ReceiveFormComponent.js
-msgid "Note - if the sender is not a registered user of Retail, they will receive an email invitation to create an account and claim their funds."
+msgid "Email Address to Request From"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/ReceiveForm/ReceiveFormComponent.js
 msgid "Amount of {name} to Request"
-msgstr ""
-
-#: src/components/SendReceiveSidePane/ReceiveForm/ReceiveFormComponent.js
-#: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
-msgid "Enter the amount of {name} you wish to receive."
 msgstr ""
 
 #: src/components/SendReceiveSidePane/ReceiveForm/ReceiveFormComponent.js
@@ -1730,16 +1743,19 @@ msgstr ""
 
 #: src/components/SendReceiveSidePane/ReceiveForm/ReceiveFormComponent.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmHeaderComponent.js
-#: src/components/SendReceiveSidePane/SendReceiveFormTabs/SendReceiveFormTabsComponent.js
 msgid "Request"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
-msgid "Recipient’s Email Address"
+msgid "To Email Address"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
-msgid "Note - if the receipient is not a registered user of Retail, they will receive an email invitation to create an account and claim their funds."
+msgid "External Wallet"
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
+msgid "Receiver’s Email Address"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
@@ -1759,13 +1775,23 @@ msgid "Send"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
-#: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
-msgid "Recipient’s Email"
+msgid "External Address"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
-#: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
+msgid "Receiver’s Email"
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
 msgid "Requestee’s Email"
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
+msgid "Miner Fees"
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
+msgid "Total Amount"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
@@ -1773,15 +1799,36 @@ msgid "Send Details"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
-msgid "Request Details"
+msgid "Amount to be Deducted"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
-msgid "Transaction Fee"
+msgid "Amount to Send"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
-msgid "Total Amount"
+msgid "Note - if the sender is not a registered user of Retail, they will receive an email invitation to create an account and claim their funds."
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
+msgid "Use this form to request funds via email."
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
+msgid "Note - if the requestee is not a registered user of Retail, they will receive an email invitation to create an account."
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
+msgid "Depositing cryptocurrency into your wallet is safe and easy. The address below can always be used to deposit cryptocurrency into your account."
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
+msgid "Your account will automatically update after the cryptocurrency network confirms your transaction. The confirmation may take up to 1 hour"
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendReceiveFormTabs/SendReceiveFormTabsComponent.js
+#: src/components/WalletNavItems/CryptoNavItemsComponent.js
+msgid "Receive"
 msgstr ""
 
 #: src/components/ThemeEditorComponent.js
@@ -1844,10 +1891,6 @@ msgstr ""
 
 #: src/components/WalletDetails/WalletDetailsBackButtonComponent.js
 msgid "Back to Overview"
-msgstr ""
-
-#: src/components/WalletNavItems/CryptoNavItemsComponent.js
-msgid "Receive"
 msgstr ""
 
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js

@@ -1555,7 +1555,6 @@ msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
 msgid "Full Name"
 msgstr ""
@@ -1622,29 +1621,6 @@ msgid "Your withdraw ticket was created successfully."
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
-msgid "Bank Name"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
-msgid "Bank Account Number"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
-msgid "Bank Address"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
-msgid "Swift"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
-msgid "Add a note (Optional)"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
 #: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
 msgid "Current Balance:"
 msgstr ""
@@ -1659,7 +1635,19 @@ msgid "Final Balance:"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
+msgid "Bank Name"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
 msgid "Bank Account #"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
+msgid "Bank Address"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
+msgid "Swift"
 msgstr ""
 
 #: src/components/RetailSignupFormComponent.js

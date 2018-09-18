@@ -1987,6 +1987,14 @@ msgid "Transfer succeeded"
 msgstr ""
 
 #: src/redux/actions/transferRequestActions.js
+msgid "Transfer Approved"
+msgstr ""
+
+#: src/redux/actions/transferRequestActions.js
+msgid "Transfer Rejected"
+msgstr ""
+
+#: src/redux/actions/transferRequestActions.js
 msgid "Failed to confirm transfer request"
 msgstr ""
 

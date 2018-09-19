@@ -2039,14 +2039,15 @@ msgid "Still unable to connect after {attemptCount} attempts, trying again..."
 msgstr ""
 
 #: src/routeTemplates/advancedTemplate.js
+#: src/routeTemplates/basicTradingTemplate.js
 #: src/routeTemplates/londonTemplate.js
-msgid "Settings"
+#: src/routeTemplates/retailTemplate.js
+msgid "User Settings"
 msgstr ""
 
 #: src/routeTemplates/advancedTemplate.js
-#: src/routeTemplates/basicTradingTemplate.js
-#: src/routeTemplates/londonTemplate.js
-msgid "User Settings"
+#: src/routeTemplates/retailTemplate.js
+msgid "Profile & Security"
 msgstr ""
 
 #: src/routeTemplates/advancedTemplate.js
@@ -2066,6 +2067,7 @@ msgstr ""
 #: src/routeTemplates/advancedTemplate.js
 #: src/routeTemplates/basicTradingTemplate.js
 #: src/routeTemplates/londonTemplate.js
+#: src/routeTemplates/retailTemplate.js
 msgid "Affiliate Program"
 msgstr ""
 
@@ -2105,7 +2107,7 @@ msgstr ""
 msgid "Activity"
 msgstr ""
 
-#: src/routeTemplates/retailTemplate.js
-msgid "Profile & Security"
+#: src/routeTemplates/londonTemplate.js
+msgid "Settings"
 msgstr ""
 

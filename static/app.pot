@@ -131,7 +131,6 @@ msgstr ""
 #: src/components/OrderHistoryComponents/OpenOrdersComponent.js
 #: src/components/OrderHistoryComponents/OrderHistoryTradeReportsComponent.js
 #: src/components/OrderHistoryComponents/WithdrawStatusComponent.js
-#: src/components/RecentActivity/OpenOrdersActivityComponent.js
 #: src/components/RecentActivity/RecentActivityComponent.js
 msgid "No data is available"
 msgstr ""
@@ -222,7 +221,6 @@ msgstr ""
 
 #: src/components/BalancesButtonsComponent.js
 #: src/components/DepositSidePaneComponents/DepositSidePaneComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 #: src/components/Retail/RetailSidePanes/RetailFiatFormTabsComponent.js
 #: src/components/WalletNavItems/FiatNavItemsComponent.js
@@ -286,24 +284,29 @@ msgstr ""
 msgid "Go to Exchange"
 msgstr ""
 
-#: src/components/DepositSidePaneComponents/DepositFormComponent.js
-#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
-msgid "...Select"
+#: src/components/DepositConfirmationComponent.js
+msgid "Your deposit is being processed."
 msgstr ""
 
-#: src/components/DepositSidePaneComponents/DepositFormComponent.js
-msgid "Select the currency to deposit."
+#: src/components/DepositConfirmationComponent.js
+msgid "Your account balance will be updated soon."
 msgstr ""
 
-#: src/components/DepositSidePaneComponents/DepositFormComponent.js
-#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
-msgid "Currency"
+#: src/components/DepositConfirmationComponent.js
+msgid "Your deposit was successfull."
+msgstr ""
+
+#: src/components/DepositConfirmationComponent.js
+msgid "There was a problem with your deposit."
+msgstr ""
+
+#: src/components/DepositConfirmationComponent.js
+msgid "Please try again or contact an administrator."
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositTemplateFormComponent.js
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormComponent.js
-#: src/components/TwoFactorAuthFormComponent.js
-msgid "Submit"
+#: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
+msgid "Place Deposit Ticket"
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositWorkflows/CryptoWalletDepositWorkflowComponent.js
@@ -374,10 +377,6 @@ msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
 msgid "The comment field is optional. Please use it for special instructions."
-msgstr ""
-
-#: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
-msgid "Place Deposit Ticket"
 msgstr ""
 
 #: src/components/DepthChartComponent.js
@@ -477,7 +476,6 @@ msgstr ""
 #: src/components/OrderHistoryComponents/OpenOrdersComponent.js
 #: src/components/OrderHistoryComponents/OrderHistoryTradeReportsComponent.js
 #: src/components/PriceChart/ApexChartComponent.js
-#: src/components/RecentActivity/OpenOrdersActivityComponent.js
 #: src/components/RecentTradesComponent.js
 #: src/components/RetailPriceChartComponent.js
 msgid "Price"
@@ -570,6 +568,11 @@ msgstr ""
 msgid "Complete this form to verify your account to raise your limits and enable buys."
 msgstr ""
 
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormComponent.js
+#: src/components/TwoFactorAuthFormComponent.js
+msgid "Submit"
+msgstr ""
+
 #: src/components/KYCStatus/KYCStatusComponent.js
 msgid "Please complete verification to trade and access additional features."
 msgstr ""
@@ -627,6 +630,18 @@ msgstr ""
 #: src/components/LoginFormComponent.js
 #: src/components/SignupFormComponent.js
 msgid "Problem Logging In?"
+msgstr ""
+
+#: src/components/LoyaltyToken/LoyaltyTokenComponent.js
+msgid "Trading Fees"
+msgstr ""
+
+#: src/components/LoyaltyToken/LoyaltyTokenComponent.js
+msgid "Using {loyaltyTokenSymbol} for transaction fees applies a discount to your trading fee. If you hold {loyaltyTokenSymbol} in your account, you have the option of having your trading fees automatically subtracted from your {loyaltyTokenSymbol} balance."
+msgstr ""
+
+#: src/components/LoyaltyToken/LoyaltyTokenComponent.js
+msgid "Use default fees"
 msgstr ""
 
 #: src/components/MarketDataCardComponent.js
@@ -694,7 +709,6 @@ msgid "Instrument"
 msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
-#: src/components/RecentActivity/OpenOrdersActivityComponent.js
 msgid "Order Type"
 msgstr ""
 
@@ -890,7 +904,6 @@ msgid "Quote"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/OpenOrdersComponent.js
-#: src/components/RecentActivity/OpenOrdersActivityComponent.js
 #: src/components/RecentActivity/RecentActivityComponent.js
 msgid "Action"
 msgstr ""
@@ -900,7 +913,6 @@ msgid "Cancel"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/OpenOrdersComponent.js
-#: src/components/RecentActivity/OpenOrdersActivityComponent.js
 msgid "Open Orders"
 msgstr ""
 
@@ -1024,6 +1036,7 @@ msgid "Low"
 msgstr ""
 
 #: src/components/PriceChart/ApexChartComponent.js
+#: src/components/PriceChart/TVChartComponent.js
 msgid "Price Chart"
 msgstr ""
 
@@ -1078,17 +1091,12 @@ msgstr ""
 msgid "Cancel Order"
 msgstr ""
 
-#: src/components/RecentActivity/OpenOrdersActivityComponent.js
-msgid "Quantity"
-msgstr ""
-
-#: src/components/RecentActivity/OpenOrdersActivityComponent.js
-#: src/components/RecentActivity/RecentActivityComponent.js
-msgid "Time & Date"
-msgstr ""
-
 #: src/components/RecentActivity/RecentActivityComponent.js
 msgid "Status / ID"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "Time & Date"
 msgstr ""
 
 #: src/components/RecentActivity/RecentActivityComponent.js
@@ -1413,7 +1421,7 @@ msgid "Date:"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
-msgid "Order Overview"
+msgid "Transaction Overview"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
@@ -1547,34 +1555,8 @@ msgstr ""
 msgid "Instructions"
 msgstr ""
 
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 msgid "Full Name"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
-msgid "Note"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
-msgid "Bank Account to Wire the Funds"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-msgid "Bank Name:"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-msgid "Wire Number:"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-msgid "Account Number:"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
@@ -1582,7 +1564,24 @@ msgid "Amount to Deposit"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
+msgid "Note"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 msgid "Step 2: Wire the funds to this account"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+msgid "Bank Name:"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+msgid "Wire Number:"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+msgid "Account Number:"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
@@ -1867,7 +1866,15 @@ msgid "Insufficient funds"
 msgstr ""
 
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
+msgid "...Select"
+msgstr ""
+
+#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
 msgid "Select the currency to withdraw."
+msgstr ""
+
+#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
+msgid "Currency"
 msgstr ""
 
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
@@ -2103,8 +2110,15 @@ msgid "Market Data"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js
+#: src/routeTemplates/londonTemplate.js
 #: src/routeTemplates/retailTemplate.js
-msgid "Activity"
+msgid "Funded Accounts"
+msgstr ""
+
+#: src/routeTemplates/basicTradingTemplate.js
+#: src/routeTemplates/londonTemplate.js
+#: src/routeTemplates/retailTemplate.js
+msgid "Unfunded Accounts"
 msgstr ""
 
 #: src/routeTemplates/londonTemplate.js

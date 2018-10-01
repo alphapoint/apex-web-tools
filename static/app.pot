@@ -1432,10 +1432,6 @@ msgstr ""
 msgid "Transaction Cost"
 msgstr ""
 
-#: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
-msgid "Final Quantity"
-msgstr ""
-
 #: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
 msgid "Update"

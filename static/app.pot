@@ -132,6 +132,7 @@ msgstr ""
 #: src/components/OrderHistoryComponents/OrderHistoryTradeReportsComponent.js
 #: src/components/OrderHistoryComponents/WithdrawStatusComponent.js
 #: src/components/RecentActivity/RecentActivityComponent.js
+#: src/components/Transfers/TransfersComponent.js
 msgid "No data is available"
 msgstr ""
 
@@ -186,6 +187,7 @@ msgstr ""
 #: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
 #: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordConfirmComponent.js
 #: src/components/RetailSignupFormComponent.js
+#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthForm.js
 #: src/components/SignupFormComponent.js
 #: src/components/TwoFactorAuthFormComponent.js
 msgid "Processing..."
@@ -302,6 +304,18 @@ msgstr ""
 
 #: src/components/DepositConfirmationComponent.js
 msgid "Please try again or contact an administrator."
+msgstr ""
+
+#: src/components/DepositSidePaneComponents/DepositFormComponent.js
+msgid "Select an option to continue the deposit process"
+msgstr ""
+
+#: src/components/DepositSidePaneComponents/DepositFormComponent.js
+msgid "Options for deposit"
+msgstr ""
+
+#: src/components/DepositSidePaneComponents/DepositTemplateFormComponent.js
+msgid "Please use the following information to do a deposit:"
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositTemplateFormComponent.js
@@ -750,6 +764,7 @@ msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
 #: src/components/ReportBlockTradeSidePaneComponents/ReportBlockTradeComponent.js
+#: src/components/Transfers/TransfersComponent.js
 msgid "Received"
 msgstr ""
 
@@ -817,6 +832,7 @@ msgstr ""
 #: src/components/OrderHistoryComponents/WithdrawStatusComponent.js
 #: src/components/RecentActivity/RecentActivityComponent.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
+#: src/components/Transfers/TransfersComponent.js
 msgid "Amount"
 msgstr ""
 
@@ -825,6 +841,7 @@ msgstr ""
 #: src/components/OrderHistoryComponents/OpenOrdersComponent.js
 #: src/components/OrderHistoryComponents/OrderHistoryTradeReportsComponent.js
 #: src/components/OrderHistoryComponents/WithdrawStatusComponent.js
+#: src/components/Transfers/TransfersComponent.js
 msgid "Status"
 msgstr ""
 
@@ -905,6 +922,7 @@ msgstr ""
 
 #: src/components/OrderHistoryComponents/OpenOrdersComponent.js
 #: src/components/RecentActivity/RecentActivityComponent.js
+#: src/components/Transfers/TransfersComponent.js
 msgid "Action"
 msgstr ""
 
@@ -1132,6 +1150,7 @@ msgstr ""
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
+#: src/components/Transfers/TransfersComponent.js
 msgid "Time"
 msgstr ""
 
@@ -1561,6 +1580,8 @@ msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
+#: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
+#: src/components/Transfers/TransfersComponent.js
 msgid "Note"
 msgstr ""
 
@@ -1763,7 +1784,7 @@ msgid "Amount to Send"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
-msgid "Note - if the sender is not a registered user of Retail, they will receive an email invitation to create an account and claim their funds."
+msgid "If the sender is not a registered user of Retail, they will receive an email invitation to create an account and claim their funds."
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
@@ -1787,6 +1808,20 @@ msgstr ""
 msgid "Receive"
 msgstr ""
 
+#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthForm.js
+#: src/components/TwoFactorAuthFormComponent.js
+msgid "Enter the token from your Authenticator app."
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthForm.js
+msgid "Authenticate Transfer"
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthModal.js
+#: src/components/TwoFactorAuthFormComponent.js
+msgid "Two-Factor Authentication"
+msgstr ""
+
 #: src/components/SignupFormComponent.js
 msgid "By Clicking Sign up you accept our {t} and {p}"
 msgstr ""
@@ -1800,19 +1835,61 @@ msgid "Edit all the colors used in the app"
 msgstr ""
 
 #: src/components/TransferRequests/TransferRequestItemComponent.js
+#: src/components/Transfers/TransfersComponent.js
 msgid "Approve"
 msgstr ""
 
 #: src/components/TransferRequests/TransferRequestItemComponent.js
+#: src/components/Transfers/TransfersComponent.js
 msgid "Reject"
 msgstr ""
 
-#: src/components/TwoFactorAuthFormComponent.js
-msgid "Two-Factor Authentication"
+#: src/components/Transfers/TransfersComponent.js
+msgid "Sent"
 msgstr ""
 
-#: src/components/TwoFactorAuthFormComponent.js
-msgid "Enter the token from your Authenticator app."
+#: src/components/Transfers/TransfersComponent.js
+msgid "From"
+msgstr ""
+
+#: src/components/Transfers/TransfersComponent.js
+msgid "To"
+msgstr ""
+
+#: src/components/Transfers/TransfersComponent.js
+msgid "Recipient"
+msgstr ""
+
+#: src/components/Transfers/TransfersComponent.js
+msgid "You requested to Receive"
+msgstr ""
+
+#: src/components/Transfers/TransfersComponent.js
+msgid "Sent By"
+msgstr ""
+
+#: src/components/Transfers/TransfersComponent.js
+msgid "Request for you to send"
+msgstr ""
+
+#: src/components/Transfers/TransfersComponent.js
+msgid "Transfers"
+msgstr ""
+
+#: src/components/Transfers/TransfersComponent.js
+msgid "Sent Transfers"
+msgstr ""
+
+#: src/components/Transfers/TransfersComponent.js
+msgid "Received Transfers"
+msgstr ""
+
+#: src/components/Transfers/TransfersComponent.js
+msgid "Sent Requests"
+msgstr ""
+
+#: src/components/Transfers/TransfersComponent.js
+msgid "Received Requests"
 msgstr ""
 
 #: src/components/UserSummaryComponent.js
@@ -1862,15 +1939,11 @@ msgid "Insufficient funds"
 msgstr ""
 
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
-msgid "...Select"
+msgid "Select an option to continue the withdraw process"
 msgstr ""
 
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
-msgid "Select the currency to withdraw."
-msgstr ""
-
-#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
-msgid "Currency"
+msgid "Options for withdraw"
 msgstr ""
 
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
@@ -2103,6 +2176,11 @@ msgstr ""
 #: src/routeTemplates/basicTradingTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "Market Data"
+msgstr ""
+
+#: src/routeTemplates/basicTradingTemplate.js
+#: src/routeTemplates/retailTemplate.js
+msgid "Transfer Activity"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js

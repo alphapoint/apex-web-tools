@@ -26,6 +26,7 @@ msgid "Edit"
 msgstr ""
 
 #: src/components/AffiliateComponents/AffiliateComponent.js
+#: src/components/ApiKeysSidePaneComponents/CreateApiKeyComponent.js
 msgid "Create"
 msgstr ""
 
@@ -94,12 +95,10 @@ msgid "API Documentation »"
 msgstr ""
 
 #: src/components/ApiKeysFormComponent.js
-#: src/components/ApiKeysSidePaneComponents/ApiKeysSidePaneComponent.js
 msgid "Create an API Key"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ApiKeyListComponent.js
-#: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
 msgid "Key"
 msgstr ""
 
@@ -116,7 +115,6 @@ msgid "Allows Trading"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ApiKeyListComponent.js
-#: src/components/ApiKeysSidePaneComponents/RemoveApiKeyModal.js
 msgid "Delete"
 msgstr ""
 
@@ -137,19 +135,48 @@ msgid "No data is available"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-msgid "Permissions"
+msgid "True"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-msgid "Secret"
+msgid "False"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-msgid "Call {a} with the following to login:"
+#: src/components/Enable2FAForm.js
+#: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCConfirmMitekModalComponent.js
+#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
+#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
+#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
+msgid "Confirm"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-msgid "To generate your own signature with a different nonce, {hmacSha256} encode your nonce, user ID, and API key, in the format {messageFormat} using the secret as your key."
+msgid "Key:"
+msgstr ""
+
+#: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
+msgid "Secret:"
+msgstr ""
+
+#: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
+msgid "Deposits:"
+msgstr ""
+
+#: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
+msgid "Withdraws:"
+msgstr ""
+
+#: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
+msgid "Trading:"
+msgstr ""
+
+#: src/components/ApiKeysSidePaneComponents/CreateApiKeyComponent.js
+#: src/components/ApiKeysSidePaneComponents/NewApiKeyModal.js
+msgid "Create New API Key"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/CreateApiKeyComponent.js
@@ -193,28 +220,16 @@ msgstr ""
 msgid "Processing..."
 msgstr ""
 
-#: src/components/ApiKeysSidePaneComponents/CreateApiKeyComponent.js
-msgid "GENERATE KEY"
-msgstr ""
-
 #: src/components/ApiKeysSidePaneComponents/NewApiKeyModal.js
-msgid "Create New API Key"
-msgstr ""
-
-#: src/components/ApiKeysSidePaneComponents/NewApiKeyModal.js
-#: src/components/Enable2FAForm.js
-#: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCConfirmMitekModalComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
-#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
-msgid "Confirm"
+msgid "Create New Key"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/RemoveApiKeyModal.js
 msgid "Delete API Key"
+msgstr ""
+
+#: src/components/ApiKeysSidePaneComponents/RemoveApiKeyModal.js
+msgid "Disable"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/RemoveApiKeyModal.js
@@ -1723,6 +1738,16 @@ msgstr ""
 msgid "Your withdraw ticket was created successfully."
 msgstr ""
 
+#: src/components/SendReceiveSidePane/SendAddress/SendAddressComponent.js
+#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
+msgid "Select an option to continue the withdraw process"
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendAddress/SendAddressComponent.js
+#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
+msgid "Options for withdraw"
+msgstr ""
+
 #: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
 msgid "To Email Address"
 msgstr ""
@@ -1936,14 +1961,6 @@ msgstr ""
 
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
 msgid "Insufficient funds"
-msgstr ""
-
-#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
-msgid "Select an option to continue the withdraw process"
-msgstr ""
-
-#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
-msgid "Options for withdraw"
 msgstr ""
 
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js

@@ -2031,6 +2031,10 @@ msgstr ""
 msgid "Bank Name"
 msgstr ""
 
+#: src/helpers/formTemplateHelper.js
+msgid "Please note that a destination tag may be required if you are withdrawing to an exchange or online wallet."
+msgstr ""
+
 #: src/helpers/formValidations.js
 msgid "Password must contain at least 8 characters, one number, and at least one capital letter"
 msgstr ""

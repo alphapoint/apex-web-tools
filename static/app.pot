@@ -99,6 +99,7 @@ msgid "Create an API Key"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ApiKeyListComponent.js
+#: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
 msgid "Key"
 msgstr ""
 
@@ -135,43 +136,19 @@ msgid "No data is available"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-msgid "True"
+msgid "Permissions"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-msgid "False"
+msgid "Secret"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-#: src/components/Enable2FAForm.js
-#: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCConfirmMitekModalComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
-#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
-msgid "Confirm"
+msgid "Call {a} with the following to login:"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-msgid "Key:"
-msgstr ""
-
-#: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-msgid "Secret:"
-msgstr ""
-
-#: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-msgid "Deposits:"
-msgstr ""
-
-#: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-msgid "Withdraws:"
-msgstr ""
-
-#: src/components/ApiKeysSidePaneComponents/ConfirmAPIKeyModal.js
-msgid "Trading:"
+msgid "To generate your own signature with a different nonce, {hmacSha256} encode your nonce, user ID, and API key, in the format {messageFormat} using the secret as your key."
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/CreateApiKeyComponent.js
@@ -221,7 +198,15 @@ msgid "Processing..."
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/NewApiKeyModal.js
-msgid "Create New Key"
+#: src/components/Enable2FAForm.js
+#: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCConfirmMitekModalComponent.js
+#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
+#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
+#: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
+msgid "Confirm"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/RemoveApiKeyModal.js
@@ -578,7 +563,7 @@ msgid "Requirements"
 msgstr ""
 
 #: src/components/KYCSettings/KYCLevelComponent.js
-msgid "Increase to Level"
+msgid "Increase to {label}"
 msgstr ""
 
 #: src/components/KYCSettings/KYCSettingsComponent.js
@@ -1427,6 +1412,14 @@ msgid "Send Reset Email"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailBuySellComponent.js
+msgid "Buy {product1} with {product2}"
+msgstr ""
+
+#: src/components/Retail/RetailBuySell/RetailBuySellComponent.js
+msgid "Sell {product1} for {product2}"
+msgstr ""
+
+#: src/components/Retail/RetailBuySell/RetailBuySellComponent.js
 msgid "Choose a Crypto to Buy"
 msgstr ""
 
@@ -1484,8 +1477,6 @@ msgid "Last Name"
 msgstr ""
 
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionFormEditableComponent.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
 msgid "Display Currency"
 msgstr ""
 
@@ -1497,10 +1488,6 @@ msgstr ""
 
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
 msgid "United States of America"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
-msgid "US Dollar"
 msgstr ""
 
 #: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordConfirmComponent.js
@@ -1708,6 +1695,10 @@ msgstr ""
 
 #: src/components/SendReceiveSidePane/ReceiveAddress/ReceiveAddressComponent.js
 msgid "Or copy this address:"
+msgstr ""
+
+#: src/components/SendReceiveSidePane/ReceiveAddress/ReceiveAddressComponent.js
+msgid "Loading url..."
 msgstr ""
 
 #: src/components/SendReceiveSidePane/ReceiveForm/ReceiveFormComponent.js
@@ -1949,6 +1940,10 @@ msgstr ""
 #: src/components/WalletCards/WalletCardComponent.js
 #: src/components/WalletRows/WalletRowComponent.js
 msgid "View Activity"
+msgstr ""
+
+#: src/components/WalletCards/WalletCardGridContainer.js
+msgid "Funded Accounts"
 msgstr ""
 
 #: src/components/WalletDetails/WalletDetailsBackButtonComponent.js
@@ -2200,14 +2195,7 @@ msgid "Market Data"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js
-#: src/routeTemplates/retailTemplate.js
 msgid "Transfer Activity"
-msgstr ""
-
-#: src/routeTemplates/basicTradingTemplate.js
-#: src/routeTemplates/londonTemplate.js
-#: src/routeTemplates/retailTemplate.js
-msgid "Funded Accounts"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js

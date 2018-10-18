@@ -10,7 +10,7 @@ function init() {
   const header = 'window.APEXTranslations = ';
   try {
 
-    shell.exec('i18n_import --translations=local/translation');
+    shell.exec('./node_modules/redux-i18n/bin/i18n_import.js --translations=local/translation --locales=local/translation');
 
     const translationsContent = fs.readFileSync(translationsFile, 'utf8');
 

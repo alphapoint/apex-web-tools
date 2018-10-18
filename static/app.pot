@@ -307,6 +307,7 @@ msgid "Please try again or contact an administrator."
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositFormComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositFormComponent.js
 msgid "Select an option to continue the deposit process"
 msgstr ""
 
@@ -660,6 +661,10 @@ msgstr ""
 
 #: src/components/MarketDataCardComponent.js
 msgid "24-Hour Change"
+msgstr ""
+
+#: src/components/MarketDataCardComponent.js
+msgid "24-Hour Pct Change"
 msgstr ""
 
 #: src/components/MarketDataCardComponent.js
@@ -1464,32 +1469,6 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileEditableComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailUserProfileStaticComponent.js
-msgid "First Name"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileEditableComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailUserProfileStaticComponent.js
-msgid "Last Name"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
-msgid "Display Currency"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionFormEditableComponent.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
-msgid "Country"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
-msgid "United States of America"
-msgstr ""
-
 #: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordConfirmComponent.js
 msgid "Check your email with instructions on changing your password"
 msgstr ""
@@ -1511,7 +1490,7 @@ msgid "View: API Documentation »"
 msgstr ""
 
 #: src/components/Retail/RetailSettings/RetailEnableTwoFactorAuthComponent.js
-msgid "Two-Factor Authorization (2FA) adds another layer of protection to your account by requiring an additional passcode during the logging in process."
+msgid "Two-Factor Authentication (2FA) adds another layer of protection to your account by requiring an additional passcode during the logging in process."
 msgstr ""
 
 #: src/components/Retail/RetailSettings/RetailEnableTwoFactorAuthComponent.js
@@ -1531,7 +1510,9 @@ msgid "Region"
 msgstr ""
 
 #: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
-msgid "Two-Factor Authorization"
+#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthModal.js
+#: src/components/TwoFactorAuthFormComponent.js
+msgid "Two-Factor Authentication"
 msgstr ""
 
 #: src/components/Retail/RetailSettings/RetailTransferHistoryComponent.js
@@ -1622,6 +1603,12 @@ msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
 msgid "Note - The withdrawal and transfer of these funds might take up to 7 business days, and it’s subject to operator review."
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
+#: src/components/SendReceiveSidePane/SendAddress/SendAddressComponent.js
+#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
+msgid "Select an option to continue the withdraw process"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
@@ -1731,11 +1718,6 @@ msgstr ""
 
 #: src/components/SendReceiveSidePane/SendAddress/SendAddressComponent.js
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
-msgid "Select an option to continue the withdraw process"
-msgstr ""
-
-#: src/components/SendReceiveSidePane/SendAddress/SendAddressComponent.js
-#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
 msgid "Options for withdraw"
 msgstr ""
 
@@ -1833,11 +1815,6 @@ msgstr ""
 msgid "Authenticate Transfer"
 msgstr ""
 
-#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthModal.js
-#: src/components/TwoFactorAuthFormComponent.js
-msgid "Two-Factor Authentication"
-msgstr ""
-
 #: src/components/SignupFormComponent.js
 msgid "By Clicking Sign up you accept our {t} and {p}"
 msgstr ""
@@ -1906,6 +1883,10 @@ msgstr ""
 
 #: src/components/Transfers/TransfersComponent.js
 msgid "Received Requests"
+msgstr ""
+
+#: src/components/Transfers/TransfersComponent.js
+msgid "Refresh Transfers"
 msgstr ""
 
 #: src/components/UserSummaryComponent.js

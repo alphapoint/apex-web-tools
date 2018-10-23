@@ -246,8 +246,8 @@ msgstr ""
 msgid "Balances"
 msgstr ""
 
-#: src/components/common/APAddressInput.js
-msgid "Invalid {currency} address"
+#: src/components/common/APCryptoAddressInput/APCryptoAddressInputComponent.js
+msgid "Invalid {productSymbol} address"
 msgstr ""
 
 #: src/components/common/APSwitch.js
@@ -394,6 +394,25 @@ msgstr ""
 msgid "The comment field is optional. Please use it for special instructions."
 msgstr ""
 
+#: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
+msgid "Bank Account to Wire the Funds"
+msgstr ""
+
+#: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+msgid "Bank Name:"
+msgstr ""
+
+#: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+msgid "Wire Number:"
+msgstr ""
+
+#: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
+msgid "Account Number:"
+msgstr ""
+
 #: src/components/DepthChartComponent.js
 msgid "Depth Chart"
 msgstr ""
@@ -492,6 +511,7 @@ msgstr ""
 #: src/components/OrderHistoryComponents/OrderHistoryTradeReportsComponent.js
 #: src/components/PriceChart/ApexChartComponent.js
 #: src/components/RecentTradesComponent.js
+#: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
 #: src/components/RetailPriceChartComponent.js
 msgid "Price"
 msgstr ""
@@ -648,11 +668,27 @@ msgid "Problem Logging In?"
 msgstr ""
 
 #: src/components/LoyaltyToken/LoyaltyTokenComponent.js
+msgid "Use {ProductSymbol} to pay for fees"
+msgstr ""
+
+#: src/components/LoyaltyToken/LoyaltyTokenComponent.js
+msgid "({LoyaltyDiscount}% discount )"
+msgstr ""
+
+#: src/components/LoyaltyToken/LoyaltyTokenComponent.js
+msgid "{products} or {lastProduct}"
+msgstr ""
+
+#: src/components/LoyaltyToken/LoyaltyTokenComponent.js
 msgid "Trading Fees"
 msgstr ""
 
 #: src/components/LoyaltyToken/LoyaltyTokenComponent.js
-msgid "Using {loyaltyTokenSymbol} for transaction fees applies a discount to your trading fee. If you hold {loyaltyTokenSymbol} in your account, you have the option of having your trading fees automatically subtracted from your {loyaltyTokenSymbol} balance."
+msgid "Using {displayProducts} for transaction fees applies a discount to your trading fee. If you hold {displayProducts} in your account, you have the option of having your trading fees automatically subtracted from your {displayProducts} balance."
+msgstr ""
+
+#: src/components/LoyaltyToken/LoyaltyTokenComponent.js
+msgid "Loyalty token has not been set up on this exchange."
 msgstr ""
 
 #: src/components/LoyaltyToken/LoyaltyTokenComponent.js
@@ -728,6 +764,7 @@ msgid "Instrument"
 msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
+#: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
 msgid "Order Type"
 msgstr ""
 
@@ -810,7 +847,6 @@ msgid "Market"
 msgstr ""
 
 #: src/components/OrderEntryComponents/OrderEntryComponent.js
-#: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
 #: src/constants/sendOrder/orderEntryFormConstants.js
 msgid "Limit"
 msgstr ""
@@ -1210,6 +1246,7 @@ msgid "Confirm Sell Order"
 msgstr ""
 
 #: src/components/ReportBlockTradeSidePaneComponents/ConfirmBlockTradeModalComponent.js
+#: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
 msgid "Date"
 msgstr ""
 
@@ -1444,12 +1481,15 @@ msgid "Confirmation"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
-msgid "Order Type:"
+msgid "Limit (Fill or Kill)"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
-#: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
-msgid "Date:"
+msgid "{product} to Buy"
+msgstr ""
+
+#: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
+msgid "{product} to Sell"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
@@ -1457,11 +1497,15 @@ msgid "Transaction Overview"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
-msgid "Price:"
+msgid "Transaction Cost"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
-msgid "Transaction Cost"
+msgid "{symbol1} to Buy"
+msgstr ""
+
+#: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
+msgid "{symbol1} to Sell"
 msgstr ""
 
 #: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
@@ -1570,18 +1614,6 @@ msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 msgid "Step 2: Wire the funds to this account"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-msgid "Bank Name:"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-msgid "Wire Number:"
-msgstr ""
-
-#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
-msgid "Account Number:"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
@@ -2012,7 +2044,51 @@ msgid "Please note that a destination tag may be required if you are withdrawing
 msgstr ""
 
 #: src/helpers/formValidations.js
+msgid "Passwords do not match"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Invalid email address"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Input should only contain alphanumeric characters"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Input should only contain alphabetic characters"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Input should only contain alphanumeric and space characters"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Input should only contain numeric characters"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Must be bigger than {a}"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Must be less than {a}"
+msgstr ""
+
+#: src/helpers/formValidations.js
 msgid "Password must contain at least 8 characters, one number, and at least one capital letter"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Invalid date"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Must be {a} characters or less"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Must be a valid phone number"
 msgstr ""
 
 #: src/redux/actions/confirmWithdrawActions.js

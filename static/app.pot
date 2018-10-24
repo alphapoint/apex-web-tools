@@ -12,10 +12,12 @@ msgid "Create New:"
 msgstr ""
 
 #: src/components/ActivityReportingComponent.js
+#: src/components/ReportSidePaneComponents/ReportSidePaneComponent.js
 msgid "Single Report"
 msgstr ""
 
 #: src/components/ActivityReportingComponent.js
+#: src/components/ReportSidePaneComponents/ReportSidePaneComponent.js
 msgid "Cyclical Report"
 msgstr ""
 
@@ -27,6 +29,8 @@ msgstr ""
 
 #: src/components/AffiliateComponents/AffiliateComponent.js
 #: src/components/ApiKeysSidePaneComponents/CreateApiKeyComponent.js
+#: src/components/ReportSidePaneComponents/CreateReportFormComponent.js
+#: src/components/ReportSidePaneComponents/ScheduleReportFormComponent.js
 msgid "Create"
 msgstr ""
 
@@ -201,6 +205,8 @@ msgstr ""
 #: src/components/Enable2FAForm.js
 #: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
 #: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCConfirmMitekModalComponent.js
+#: src/components/ReportSidePaneComponents/ConfirmCyclicalReportForm.js
+#: src/components/ReportSidePaneComponents/ConfirmSingleReportForm.js
 #: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
@@ -248,6 +254,14 @@ msgstr ""
 
 #: src/components/common/APCryptoAddressInput/APCryptoAddressInputComponent.js
 msgid "Invalid {productSymbol} address"
+msgstr ""
+
+#: src/components/common/APImageUpload/APImageUpload.js
+msgid "Choose another image"
+msgstr ""
+
+#: src/components/common/APImageUpload/APImageUpload.js
+msgid "Place image"
 msgstr ""
 
 #: src/components/common/APSwitch.js
@@ -339,6 +353,16 @@ msgstr ""
 #: src/components/DepositSidePaneComponents/DepositWorkflows/CryptoWalletDepositWorkflowComponent.js
 #: src/components/SendReceiveSidePane/ReceiveAddress/ReceiveAddressComponent.js
 msgid "The address has been copied to the clipboard."
+msgstr ""
+
+#: src/components/DepositSidePaneComponents/DepositWorkflows/CryptoWalletDepositWorkflowComponent.js
+#: src/components/SendReceiveSidePane/ReceiveAddress/ReceiveAddressComponent.js
+msgid "Be sure to include this destination tag:"
+msgstr ""
+
+#: src/components/DepositSidePaneComponents/DepositWorkflows/CryptoWalletDepositWorkflowComponent.js
+#: src/components/SendReceiveSidePane/ReceiveAddress/ReceiveAddressComponent.js
+msgid "The destination tag has been copied to the clipboard."
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositWorkflows/CryptoWalletDepositWorkflowComponent.js
@@ -980,7 +1004,6 @@ msgid "Complete"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/OrderHistoryTradeReportsComponent.js
-#: src/components/ReportSidePaneComponents/ReportSidePaneComponent.js
 #: src/routeTemplates/advancedTemplate.js
 #: src/routeTemplates/basicTradingTemplate.js
 #: src/routeTemplates/londonTemplate.js
@@ -1268,6 +1291,8 @@ msgstr ""
 
 #: src/components/ReportSidePaneComponents/ConfirmCyclicalReportForm.js
 #: src/components/ReportSidePaneComponents/ConfirmSingleReportForm.js
+#: src/components/ReportSidePaneComponents/CreateReportFormComponent.js
+#: src/components/ReportSidePaneComponents/ScheduleReportFormComponent.js
 msgid "Report Type:"
 msgstr ""
 
@@ -1284,7 +1309,6 @@ msgid "Frequency:"
 msgstr ""
 
 #: src/components/ReportSidePaneComponents/ConfirmCyclicalReportModal.js
-#: src/components/ReportSidePaneComponents/ReportSidePaneComponent.js
 msgid "Schedule a Cyclical Report"
 msgstr ""
 
@@ -1302,13 +1326,7 @@ msgid "Create Single Report"
 msgstr ""
 
 #: src/components/ReportSidePaneComponents/ConfirmSingleReportModal.js
-#: src/components/ReportSidePaneComponents/CreateReportFormComponent.js
 msgid "Create Report"
-msgstr ""
-
-#: src/components/ReportSidePaneComponents/CreateReportFormComponent.js
-#: src/components/ReportSidePaneComponents/ScheduleReportFormComponent.js
-msgid "Choose Report Type:"
 msgstr ""
 
 #: src/components/ReportSidePaneComponents/CreateReportFormComponent.js
@@ -1349,7 +1367,7 @@ msgid "No Report Is Available"
 msgstr ""
 
 #: src/components/ReportSidePaneComponents/ReportSidePaneComponent.js
-msgid "Create a Single Report"
+msgid "Create a Report"
 msgstr ""
 
 #: src/components/ReportSidePaneComponents/ScheduledReportsTableComponent.js
@@ -1382,10 +1400,6 @@ msgstr ""
 
 #: src/components/ReportSidePaneComponents/ScheduleReportFormComponent.js
 msgid "Annual"
-msgstr ""
-
-#: src/components/ReportSidePaneComponents/ScheduleReportFormComponent.js
-msgid "SCHEDULE A REPORT"
 msgstr ""
 
 #: src/components/ResetPasswordFormComponent.js
@@ -1494,6 +1508,10 @@ msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
 msgid "Transaction Overview"
+msgstr ""
+
+#: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
+msgid "{price} per {symbol1}"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
@@ -2089,6 +2107,10 @@ msgstr ""
 
 #: src/helpers/formValidations.js
 msgid "Must be a valid phone number"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "File size must be under {a}mb"
 msgstr ""
 
 #: src/redux/actions/confirmWithdrawActions.js

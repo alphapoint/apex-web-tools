@@ -185,13 +185,14 @@ msgstr ""
 #: src/components/Enable2FAForm.js
 #: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
 #: src/components/LanguageComponent.js
-#: src/components/LoginFormComponent.js
+#: src/components/Login/LoginFormComponent.js
 #: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
 #: src/components/OrderEntryComponents/OrderEntryComponent.js
 #: src/components/ProblemLoggingInFormComponent.js
 #: src/components/ProfileFormComponent.js
 #: src/components/ReportBlockTradeSidePaneComponents/ReportBlockTradeComponent.js
 #: src/components/ResetPasswordRequestFormComponent.js
+#: src/components/Retail/RetailBuySell/RetailBuySellComponent.js
 #: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
 #: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordConfirmComponent.js
 #: src/components/RetailSignupFormComponent.js
@@ -229,6 +230,7 @@ msgstr ""
 
 #: src/components/BalancesButtonsComponent.js
 #: src/components/DepositSidePaneComponents/DepositSidePaneComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/DepositReferenceIdModal.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 #: src/components/Retail/RetailSidePanes/RetailFiatFormTabsComponent.js
 #: src/components/WalletNavItems/FiatNavItemsComponent.js
@@ -624,12 +626,161 @@ msgid "Thanks for applying to increase your Verification Level. Once we have rev
 msgstr ""
 
 #: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormComponent.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step1Component.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step2Component.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step3Component.js
 msgid "Complete this form to verify your account to raise your limits and enable buys."
 msgstr ""
 
 #: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormComponent.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step3Component.js
 #: src/components/TwoFactorAuthFormComponent.js
 msgid "Submit"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Passport"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Drivers License"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Identity Card"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Residence Permit"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Personal Information"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "First Name"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Middle Name"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Last Name"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Date of Birth"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Billing Information"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Billing Phone"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Billing Country"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Billing Street Address"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "(100 Washington Way)"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Billing State"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Billing City"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Billing Zip"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "ID Verification"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Type of ID you want to upload"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Document Country"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Document State"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Upload an image of your Passport"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Image of the front of your Drivers License"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Upload an image of your Identity Card"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Upload an image of your Residence Permit"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Document"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Image of the back of your Drivers License"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Documents back"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Document\'s back"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Upload selfie"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Selfie"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Selfie picture"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+msgid "Optional - Uplading a selfie helps to verify your identity faster."
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step1Component.js
+msgid "Continue to ID verification"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step2Component.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step3Component.js
+msgid "Go back"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step2Component.js
+msgid "Upload your ID"
 msgstr ""
 
 #: src/components/KYCStatus/KYCStatusComponent.js
@@ -652,11 +803,11 @@ msgstr ""
 msgid "Set Language"
 msgstr ""
 
-#: src/components/LoginFormComponent.js
+#: src/components/Login/LoginFormComponent.js
 msgid "Log In to {n}"
 msgstr ""
 
-#: src/components/LoginFormComponent.js
+#: src/components/Login/LoginFormComponent.js
 #: src/components/ProblemLoggingInFormComponent.js
 #: src/components/ProfileFormComponent.js
 #: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
@@ -667,28 +818,32 @@ msgstr ""
 msgid "Username"
 msgstr ""
 
-#: src/components/LoginFormComponent.js
+#: src/components/Login/LoginFormComponent.js
 #: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
 #: src/components/RetailSignupFormComponent.js
 #: src/components/SignupFormComponent.js
 msgid "Password"
 msgstr ""
 
-#: src/components/LoginFormComponent.js
+#: src/components/Login/LoginFormComponent.js
 #: src/components/ProblemLoggingInFormComponent.js
 msgid "Log In"
 msgstr ""
 
-#: src/components/LoginFormComponent.js
+#: src/components/Login/LoginFormComponent.js
 #: src/components/ProblemLoggingInFormComponent.js
 #: src/components/RetailSignupFormComponent.js
 #: src/components/SignupFormComponent.js
 msgid "Sign Up"
 msgstr ""
 
-#: src/components/LoginFormComponent.js
+#: src/components/Login/LoginFormComponent.js
 #: src/components/SignupFormComponent.js
 msgid "Problem Logging In?"
+msgstr ""
+
+#: src/components/Login/LoginFormContainer.js
+msgid "We were unable to login, check your internet connection and try refreshing the page."
 msgstr ""
 
 #: src/components/LoyaltyToken/LoyaltyTokenComponent.js
@@ -816,6 +971,27 @@ msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
 msgid "Display Quantity"
+msgstr ""
+
+#: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
+#: src/components/OrderEntryComponents/OrderEntryComponent.js
+msgid "Time in Force"
+msgstr ""
+
+#: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
+#: src/components/OrderEntryComponents/OrderEntryComponent.js
+msgid "Good Til Canceled"
+msgstr ""
+
+#: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
+#: src/components/OrderEntryComponents/OrderEntryComponent.js
+#: src/constants/sendOrder/orderEntryFormConstants.js
+msgid "Immediate or Cancel"
+msgstr ""
+
+#: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
+#: src/components/OrderEntryComponents/OrderEntryComponent.js
+msgid "Fill or Kill"
 msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
@@ -1506,6 +1682,11 @@ msgstr ""
 msgid "{product} to Sell"
 msgstr ""
 
+#: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/DepositReferenceIdModal.js
+msgid "OK"
+msgstr ""
+
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
 msgid "Transaction Overview"
 msgstr ""
@@ -1591,6 +1772,14 @@ msgstr ""
 
 #: src/components/Retail/RetailSettings/RetailUserContactsComponent.js
 msgid "You can freely transfer currency with other participants on the exchange. Simply provide the email address for your contact during the “Send” or “Receive” process. If the email address is registered on the exchange, then the user will receive the transfer. If the email address is not registered, the user will get an invitation to join the exchange."
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/DepositReferenceIdModal.js
+msgid "Your deposit ticket has been created successfully."
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/RetailFiatDeposit/DepositReferenceIdModal.js
+msgid "Please note the following deposit ticket ID for your reference:"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositDetailsComponent.js
@@ -2026,10 +2215,6 @@ msgid "Fill Or Kill"
 msgstr ""
 
 #: src/constants/sendOrder/orderEntryFormConstants.js
-msgid "Immediate or Cancel"
-msgstr ""
-
-#: src/constants/sendOrder/orderEntryFormConstants.js
 msgid "Reserve Order"
 msgstr ""
 
@@ -2047,10 +2232,6 @@ msgstr ""
 
 #: src/containers/CreateApiKeyContainer.js
 msgid "Please choose at least one activity"
-msgstr ""
-
-#: src/containers/LoginFormContainer.js
-msgid "We were unable to login, check your internet connection and try refreshing the page."
 msgstr ""
 
 #: src/helpers/formTemplateHelper.js
@@ -2131,6 +2312,14 @@ msgstr ""
 
 #: src/redux/actions/kycManualActions.js
 msgid "There was an error in submitting your information. Please try again."
+msgstr ""
+
+#: src/redux/actions/orderEntryActions.js
+msgid "Your order was filled successfully!"
+msgstr ""
+
+#: src/redux/actions/orderEntryActions.js
+msgid "Your order failed, please try again"
 msgstr ""
 
 #: src/redux/actions/reportActions.js

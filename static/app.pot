@@ -91,6 +91,11 @@ msgid "The Public API is available in HTTP, WebSocket, and Get Request, with str
 msgstr ""
 
 #: src/components/ApiKeysFormComponent.js
+#: src/components/Retail/RetailSettings/RetailApiKeysFormComponent.js
+msgid "The Private API is accessible only by registered users and enables access and control of a user's account. All key user functions may be executed from the API, including account and order management activities."
+msgstr ""
+
+#: src/components/ApiKeysFormComponent.js
 msgid "You can access the API using the following websocket address:"
 msgstr ""
 
@@ -332,7 +337,7 @@ msgid "Options for deposit"
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositTemplateFormComponent.js
-msgid "Please use the following information to do a deposit:"
+msgid "Please use the following information to make a deposit:"
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositTemplateFormComponent.js
@@ -425,16 +430,19 @@ msgid "Bank Account to Wire the Funds"
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
+#: src/components/DepositSidePaneComponents/DepositWorkflows/PaymentProcessors/HyphenDepositWorkflowComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 msgid "Bank Name:"
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
+#: src/components/DepositSidePaneComponents/DepositWorkflows/PaymentProcessors/HyphenDepositWorkflowComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 msgid "Wire Number:"
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
+#: src/components/DepositSidePaneComponents/DepositWorkflows/PaymentProcessors/HyphenDepositWorkflowComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 msgid "Account Number:"
 msgstr ""
@@ -943,6 +951,7 @@ msgid "Instrument"
 msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
+#: src/components/OrderEntryComponents/OrderEntryComponent.js
 #: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
 msgid "Order Type"
 msgstr ""
@@ -995,11 +1004,13 @@ msgid "Fill or Kill"
 msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
+#: src/components/OrderEntryComponents/OrderEntryComponent.js
 #: src/components/ReportBlockTradeSidePaneComponents/ReportBlockTradeComponent.js
 msgid "Fees"
 msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderFormComponent.js
+#: src/components/OrderEntryComponents/OrderEntryComponent.js
 #: src/components/ReportBlockTradeSidePaneComponents/ReportBlockTradeComponent.js
 msgid "Order Total"
 msgstr ""
@@ -1015,6 +1026,7 @@ msgid "Order Size:"
 msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderMarketPriceComponent.js
+#: src/components/OrderEntryComponents/OrderEntryComponent.js
 msgid "Market Price"
 msgstr ""
 
@@ -1061,6 +1073,10 @@ msgstr ""
 
 #: src/components/OrderEntryComponents/OrderEntryComponent.js
 msgid "Sell Amount"
+msgstr ""
+
+#: src/components/OrderEntryComponents/OrderEntryComponent.js
+msgid "Net"
 msgstr ""
 
 #: src/components/OrderEntryComponents/OrderEntryComponent.js
@@ -2170,6 +2186,10 @@ msgstr ""
 msgid "Back to Overview"
 msgstr ""
 
+#: src/components/WithdrawSidePaneComponents/PaymentProcessors/HyphenWithdrawWorkflowComponent.js
+msgid "Edit banking information"
+msgstr ""
+
 #: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
 msgid "You have insufficient balance"
 msgstr ""
@@ -2429,6 +2449,12 @@ msgstr ""
 #: src/routeTemplates/londonTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "Affiliate Program"
+msgstr ""
+
+#: src/routeTemplates/advancedTemplate.js
+#: src/routeTemplates/basicTradingTemplate.js
+#: src/routeTemplates/retailTemplate.js
+msgid "Loyalty Token"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js

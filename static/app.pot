@@ -210,7 +210,7 @@ msgstr ""
 #: src/components/ApiKeysSidePaneComponents/NewApiKeyModal.js
 #: src/components/Enable2FAForm.js
 #: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCConfirmMitekModalComponent.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMindLegacy/KYCConfirmMitekModalComponent.js
 #: src/components/ReportSidePaneComponents/ConfirmCyclicalReportForm.js
 #: src/components/ReportSidePaneComponents/ConfirmSingleReportForm.js
 #: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
@@ -386,6 +386,10 @@ msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositWorkflows/CryptoWalletDepositWorkflowComponent.js
 msgid "2) Your deposit will automatically be processed"
+msgstr ""
+
+#: src/components/DepositSidePaneComponents/DepositWorkflows/GenericPaymentWorkflowComponent.js
+msgid "Server provided an unexpected response."
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
@@ -625,170 +629,141 @@ msgstr ""
 msgid "Current Verification Level"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCConfirmMitekModalComponent.js
-msgid "Confirm Identification Documents"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCConfirmMitekModalComponent.js
-msgid "Thanks for applying to increase your Verification Level. Once we have reviewed and approved your documents, you will be able to use all features of our platform."
-msgstr ""
-
 #: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormComponent.js
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step1Component.js
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step2Component.js
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step3Component.js
-msgid "Complete this form to verify your account to raise your limits and enable buys."
+msgid "Verification form is not properly setup, please contact the exchange in order to solve this."
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormComponent.js
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step3Component.js
-#: src/components/TwoFactorAuthFormComponent.js
-msgid "Submit"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
-msgid "Passport"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
-msgid "Drivers License"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
-msgid "Identity Card"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
-msgid "Residence Permit"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
-msgid "Personal Information"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "First Name"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Middle Name"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Last Name"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Date of Birth"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
-msgid "Billing Information"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Billing Phone"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Billing Country"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Billing Street Address"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "(100 Washington Way)"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Billing State"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Billing City"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Billing Zip"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
-msgid "ID Verification"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Type of ID you want to upload"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
+msgid "Passport"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
+msgid "Drivers License"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
+msgid "Identity Card"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
+msgid "Residence Permit"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Document Country"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Document State"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
-msgid "Upload an image of your Passport"
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
+msgid "Upload an image of your selected Document"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
-msgid "Image of the front of your Drivers License"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
-msgid "Upload an image of your Identity Card"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
-msgid "Upload an image of your Residence Permit"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Document"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Image of the back of your Drivers License"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Documents back"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Document\'s back"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Upload selfie"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Selfie"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Selfie picture"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Helpers.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormHelpers.js
 msgid "Optional - Uplading a selfie helps to verify your identity faster."
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step1Component.js
-msgid "Continue to ID verification"
-msgstr ""
-
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step2Component.js
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step3Component.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormStepComponent.js
 msgid "Go back"
 msgstr ""
 
-#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind3.2/KYCIdentityMindForm3.2Step2Component.js
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMind/KYCIdentityMindFormStepComponent.js
 msgid "Upload your ID"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMindLegacy/KYCConfirmMitekModalComponent.js
+msgid "Confirm Identification Documents"
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMindLegacy/KYCConfirmMitekModalComponent.js
+msgid "Thanks for applying to increase your Verification Level. Once we have reviewed and approved your documents, you will be able to use all features of our platform."
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMindLegacy/KYCIdentityMindLegacyFormComponent.js
+msgid "Complete this form to verify your account to raise your limits and enable buys."
+msgstr ""
+
+#: src/components/KYCSettings/KYCWorkflows/KYCIdentityMindLegacy/KYCIdentityMindLegacyFormComponent.js
+#: src/components/TwoFactorAuthFormComponent.js
+msgid "Submit"
 msgstr ""
 
 #: src/components/KYCStatus/KYCStatusComponent.js
@@ -1192,6 +1167,7 @@ msgid "Open Orders"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/OrderHistoryTradeReportsComponent.js
+#: src/redux/selectors/recentActivitySelector.js
 msgid "Complete"
 msgstr ""
 
@@ -2323,6 +2299,15 @@ msgid "Your withdrawal confirmation failed. Try clicking the link in the email y
 msgstr ""
 
 #: src/redux/actions/depositActions.js
+#: src/redux/actions/withdrawActions.js
+msgid "There are no providers configured for this product"
+msgstr ""
+
+#: src/redux/actions/depositActions.js
+msgid "Server provided an unexpected response"
+msgstr ""
+
+#: src/redux/actions/depositActions.js
 msgid "Your deposit has been successfully added"
 msgstr ""
 
@@ -2416,6 +2401,70 @@ msgstr ""
 
 #: src/redux/middlewares/wsConnectionMiddleware.js
 msgid "Still unable to connect after {attemptCount} attempts, trying again..."
+msgstr ""
+
+#: src/redux/selectors/openOrdersActivitySelector.js
+#: src/redux/selectors/recentActivitySelector.js
+msgid "Bought {Product1Symbol}"
+msgstr ""
+
+#: src/redux/selectors/openOrdersActivitySelector.js
+#: src/redux/selectors/recentActivitySelector.js
+msgid "Sold {Product1Symbol}"
+msgstr ""
+
+#: src/redux/selectors/openOrdersActivitySelector.js
+#: src/redux/selectors/recentActivitySelector.js
+msgid "with {Product2Symbol}"
+msgstr ""
+
+#: src/redux/selectors/openOrdersActivitySelector.js
+#: src/redux/selectors/recentActivitySelector.js
+msgid "for {Product2Symbol}"
+msgstr ""
+
+#: src/redux/selectors/recentActivitySelector.js
+msgid "Deposited {Product}"
+msgstr ""
+
+#: src/redux/selectors/recentActivitySelector.js
+msgid "from External Address"
+msgstr ""
+
+#: src/redux/selectors/recentActivitySelector.js
+msgid "from Bank"
+msgstr ""
+
+#: src/redux/selectors/recentActivitySelector.js
+msgid "AdminCancelled"
+msgstr ""
+
+#: src/redux/selectors/recentActivitySelector.js
+msgid "FullyProcessed"
+msgstr ""
+
+#: src/redux/selectors/recentActivitySelector.js
+msgid "Rejected"
+msgstr ""
+
+#: src/redux/selectors/recentActivitySelector.js
+msgid "New"
+msgstr ""
+
+#: src/redux/selectors/recentActivitySelector.js
+msgid "UserCancelled"
+msgstr ""
+
+#: src/redux/selectors/recentActivitySelector.js
+msgid "Withdrew {Product}"
+msgstr ""
+
+#: src/redux/selectors/recentActivitySelector.js
+msgid "to External Address"
+msgstr ""
+
+#: src/redux/selectors/recentActivitySelector.js
+msgid "to Bank"
 msgstr ""
 
 #: src/routeTemplates/advancedTemplate.js

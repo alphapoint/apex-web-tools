@@ -1684,6 +1684,10 @@ msgid "Transaction Overview"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
+msgid "There is not enough market to fill this request."
+msgstr ""
+
+#: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
 msgid "{price} per {symbol1}"
 msgstr ""
 

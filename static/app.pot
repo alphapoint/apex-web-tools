@@ -78,9 +78,6 @@ msgid "UPDATE"
 msgstr ""
 
 #: src/components/ApiKeysFormComponent.js
-#: src/routeTemplates/advancedTemplate.js
-#: src/routeTemplates/basicTradingTemplate.js
-#: src/routeTemplates/londonTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "API Keys"
 msgstr ""
@@ -1172,9 +1169,6 @@ msgid "Complete"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/OrderHistoryTradeReportsComponent.js
-#: src/routeTemplates/advancedTemplate.js
-#: src/routeTemplates/basicTradingTemplate.js
-#: src/routeTemplates/londonTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "Trade Reports"
 msgstr ""
@@ -2472,42 +2466,8 @@ msgid "to Bank"
 msgstr ""
 
 #: src/routeTemplates/advancedTemplate.js
-#: src/routeTemplates/basicTradingTemplate.js
-#: src/routeTemplates/londonTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "User Settings"
-msgstr ""
-
-#: src/routeTemplates/advancedTemplate.js
-#: src/routeTemplates/retailTemplate.js
-msgid "Profile & Security"
-msgstr ""
-
-#: src/routeTemplates/advancedTemplate.js
-#: src/routeTemplates/basicTradingTemplate.js
-#: src/routeTemplates/londonTemplate.js
-#: src/routeTemplates/retailTemplate.js
-msgid "Verification Level"
-msgstr ""
-
-#: src/routeTemplates/advancedTemplate.js
-#: src/routeTemplates/basicTradingTemplate.js
-#: src/routeTemplates/londonTemplate.js
-#: src/routeTemplates/retailTemplate.js
-msgid "User Contacts"
-msgstr ""
-
-#: src/routeTemplates/advancedTemplate.js
-#: src/routeTemplates/basicTradingTemplate.js
-#: src/routeTemplates/londonTemplate.js
-#: src/routeTemplates/retailTemplate.js
-msgid "Affiliate Program"
-msgstr ""
-
-#: src/routeTemplates/advancedTemplate.js
-#: src/routeTemplates/basicTradingTemplate.js
-#: src/routeTemplates/retailTemplate.js
-msgid "Loyalty Token"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js
@@ -2553,5 +2513,25 @@ msgstr ""
 
 #: src/routeTemplates/londonTemplate.js
 msgid "Settings"
+msgstr ""
+
+#: src/routeTemplates/retailTemplate.js
+msgid "Profile & Security"
+msgstr ""
+
+#: src/routeTemplates/retailTemplate.js
+msgid "Verification Level"
+msgstr ""
+
+#: src/routeTemplates/retailTemplate.js
+msgid "User Contacts"
+msgstr ""
+
+#: src/routeTemplates/retailTemplate.js
+msgid "Affiliate Program"
+msgstr ""
+
+#: src/routeTemplates/retailTemplate.js
+msgid "Loyalty Token"
 msgstr ""
 

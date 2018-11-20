@@ -22,7 +22,6 @@ msgid "Cyclical Report"
 msgstr ""
 
 #: src/components/AffiliateComponents/AffiliateComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailUserProfileStaticComponent.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
 msgid "Edit"
 msgstr ""
@@ -195,11 +194,9 @@ msgstr ""
 #: src/components/ReportBlockTradeSidePaneComponents/ReportBlockTradeComponent.js
 #: src/components/ResetPasswordRequestFormComponent.js
 #: src/components/Retail/RetailBuySell/RetailBuySellComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
 #: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordConfirmComponent.js
-#: src/components/RetailSignupFormComponent.js
 #: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthForm.js
-#: src/components/SignupFormComponent.js
+#: src/components/Signup/SignupFormComponent.js
 #: src/components/TwoFactorAuthFormComponent.js
 msgid "Processing..."
 msgstr ""
@@ -210,7 +207,6 @@ msgstr ""
 #: src/components/KYCSettings/KYCWorkflows/KYCIdentityMindLegacy/KYCConfirmMitekModalComponent.js
 #: src/components/ReportSidePaneComponents/ConfirmCyclicalReportForm.js
 #: src/components/ReportSidePaneComponents/ConfirmSingleReportForm.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
@@ -285,7 +281,6 @@ msgid "Loading ..."
 msgstr ""
 
 #: src/components/common/Pagination/PaginationComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileEditableComponent.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionFormEditableComponent.js
 msgid "Next"
 msgstr ""
@@ -414,7 +409,6 @@ msgid "Full Name:"
 msgstr ""
 
 #: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflowComponent.js
-#: src/components/WithdrawSidePaneComponents/WithdrawTemplateFormComponent.js
 msgid "Amount:"
 msgstr ""
 
@@ -790,18 +784,14 @@ msgstr ""
 #: src/components/Login/LoginFormComponent.js
 #: src/components/ProblemLoggingInFormComponent.js
 #: src/components/ProfileFormComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileEditableComponent.js
 #: src/components/Retail/RetailSettings/ProfileForm/RetailUserProfileStaticComponent.js
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
+#: src/components/Signup/SignupFormComponent.js
 msgid "Username"
 msgstr ""
 
 #: src/components/Login/LoginFormComponent.js
 #: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
+#: src/components/Signup/SignupFormComponent.js
 msgid "Password"
 msgstr ""
 
@@ -812,13 +802,11 @@ msgstr ""
 
 #: src/components/Login/LoginFormComponent.js
 #: src/components/ProblemLoggingInFormComponent.js
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
+#: src/components/Signup/SignupFormComponent.js
 msgid "Sign Up"
 msgstr ""
 
 #: src/components/Login/LoginFormComponent.js
-#: src/components/SignupFormComponent.js
 msgid "Problem Logging In?"
 msgstr ""
 
@@ -1062,6 +1050,7 @@ msgstr ""
 #: src/components/RecentActivity/RecentActivityComponent.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
 #: src/components/Transfers/TransfersComponent.js
+#: src/components/WithdrawSidePaneComponents/WithdrawTemplateFormComponent.js
 msgid "Amount"
 msgstr ""
 
@@ -1163,8 +1152,22 @@ msgstr ""
 msgid "Open Orders"
 msgstr ""
 
+#: src/components/OrderHistoryComponents/OrderHistoryHeaderWithFilter.js
+msgid "Transaction History"
+msgstr ""
+
+#: src/components/OrderHistoryComponents/OrderHistoryHeaderWithFilter.js
+msgid "Date Range:"
+msgstr ""
+
+#: src/components/OrderHistoryComponents/OrderHistoryHeaderWithFilter.js
+#: src/components/RecentActivity/RecentActivityComponent.js
+#: src/components/TransferRequests/TransferRequestItemComponent.js
+msgid "to"
+msgstr ""
+
 #: src/components/OrderHistoryComponents/OrderHistoryTradeReportsComponent.js
-#: src/redux/selectors/recentActivitySelector.js
+#: src/components/RecentActivity/RecentActivityComponent.js
 msgid "Complete"
 msgstr ""
 
@@ -1286,11 +1289,8 @@ msgstr ""
 
 #: src/components/ProblemLoggingInFormComponent.js
 #: src/components/ProfileFormComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileEditableComponent.js
 #: src/components/Retail/RetailSettings/ProfileForm/RetailUserProfileStaticComponent.js
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
+#: src/components/Signup/SignupFormComponent.js
 msgid "Email"
 msgstr ""
 
@@ -1299,7 +1299,7 @@ msgid "Problems Logging In?"
 msgstr ""
 
 #: src/components/ProblemLoggingInFormComponent.js
-msgid "Select your issue type and provide us with your email address. We will follow up with a solution shortly."
+msgid "Select your issue type and provide us with your {label} below. We will follow up with a solution shortly."
 msgstr ""
 
 #: src/components/ProblemLoggingInFormComponent.js
@@ -1308,6 +1308,10 @@ msgstr ""
 
 #: src/components/ProblemLoggingInFormComponent.js
 msgid "I’m a new user and I haven’t received my verification email."
+msgstr ""
+
+#: src/components/ProblemLoggingInFormComponent.js
+msgid "Provide us with your {label} below. We will follow up with reset instructions."
 msgstr ""
 
 #: src/components/ProblemLoggingInFormComponent.js
@@ -1336,6 +1340,58 @@ msgid "Cancel Order"
 msgstr ""
 
 #: src/components/RecentActivity/RecentActivityComponent.js
+msgid "Deposited {a}"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "Withdrew {a}"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "from External Address"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "to External Address"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "from Bank"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "to Bank"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "{a}"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "Sent {a}"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "Received {a}"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "Bought {a}"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "Sold {a}"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "with {a}"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
+msgid "for {a}"
+msgstr ""
+
+#: src/components/RecentActivity/RecentActivityComponent.js
 msgid "Status / ID"
 msgstr ""
 
@@ -1361,11 +1417,6 @@ msgstr ""
 
 #: src/components/RecentActivity/RecentActivityComponent.js
 msgid "Date range:"
-msgstr ""
-
-#: src/components/RecentActivity/RecentActivityComponent.js
-#: src/components/TransferRequests/TransferRequestItemComponent.js
-msgid "to"
 msgstr ""
 
 #: src/components/RecentActivity/RecentActivityComponent.js
@@ -1528,6 +1579,10 @@ msgstr ""
 msgid "No Report Is Available"
 msgstr ""
 
+#: src/components/ReportSidePaneComponents/ReportAccountsComponent.js
+msgid "Accounts"
+msgstr ""
+
 #: src/components/ReportSidePaneComponents/ReportSidePaneComponent.js
 msgid "Create a Report"
 msgstr ""
@@ -1565,32 +1620,27 @@ msgid "Annual"
 msgstr ""
 
 #: src/components/ResetPasswordFormComponent.js
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
+#: src/components/Signup/SignupFormComponent.js
 msgid "Very Weak"
 msgstr ""
 
 #: src/components/ResetPasswordFormComponent.js
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
+#: src/components/Signup/SignupFormComponent.js
 msgid "Weak"
 msgstr ""
 
 #: src/components/ResetPasswordFormComponent.js
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
+#: src/components/Signup/SignupFormComponent.js
 msgid "Medium"
 msgstr ""
 
 #: src/components/ResetPasswordFormComponent.js
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
+#: src/components/Signup/SignupFormComponent.js
 msgid "Strong"
 msgstr ""
 
 #: src/components/ResetPasswordFormComponent.js
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
+#: src/components/Signup/SignupFormComponent.js
 msgid "Very Strong"
 msgstr ""
 
@@ -1604,7 +1654,6 @@ msgid "New Password"
 msgstr ""
 
 #: src/components/ResetPasswordFormComponent.js
-#: src/components/SignupFormComponent.js
 msgid "Matching Password"
 msgstr ""
 
@@ -1678,7 +1727,7 @@ msgid "Transaction Overview"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
-msgid "There is not enough market to fill this request."
+msgid "We cannot fill this request."
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
@@ -1697,7 +1746,6 @@ msgstr ""
 msgid "{symbol1} to Sell"
 msgstr ""
 
-#: src/components/Retail/RetailSettings/ProfileForm/RetailProfileConfirmComponent.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
 msgid "Update"
 msgstr ""
@@ -1854,49 +1902,6 @@ msgstr ""
 msgid "Final Balance:"
 msgstr ""
 
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
-msgid "Signup success"
-msgstr ""
-
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
-msgid "{n} Sign Up"
-msgstr ""
-
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
-msgid "Thanks for signing up, please check your inbox for a confirmation email"
-msgstr ""
-
-#: src/components/RetailSignupFormComponent.js
-msgid "By Clicking Sign up you accept our"
-msgstr ""
-
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
-msgid "Terms and Conditions"
-msgstr ""
-
-#: src/components/RetailSignupFormComponent.js
-msgid "and"
-msgstr ""
-
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
-msgid "Privacy Policy"
-msgstr ""
-
-#: src/components/RetailSignupFormComponent.js
-#: src/components/SignupFormComponent.js
-#: src/components/VerifyEmailComponent.js
-msgid "Login"
-msgstr ""
-
-#: src/components/RetailSignupFormComponent.js
-msgid "Forgot Password?"
-msgstr ""
-
 #: src/components/SendReceiveSidePane/Receive/ReceiveComponent.js
 msgid "Request by Email"
 msgstr ""
@@ -2044,8 +2049,37 @@ msgstr ""
 msgid "Authenticate Transfer"
 msgstr ""
 
-#: src/components/SignupFormComponent.js
+#: src/components/Signup/SignupFormComponent.js
+msgid "Terms and Conditions"
+msgstr ""
+
+#: src/components/Signup/SignupFormComponent.js
+msgid "Privacy Policy"
+msgstr ""
+
+#: src/components/Signup/SignupFormComponent.js
+msgid "Signup success"
+msgstr ""
+
+#: src/components/Signup/SignupFormComponent.js
+msgid "{n} Sign Up"
+msgstr ""
+
+#: src/components/Signup/SignupFormComponent.js
+msgid "Thanks for signing up, please check your inbox for a confirmation email"
+msgstr ""
+
+#: src/components/Signup/SignupFormComponent.js
 msgid "By Clicking Sign up you accept our {t} and {p}"
+msgstr ""
+
+#: src/components/Signup/SignupFormComponent.js
+#: src/components/VerifyEmailComponent.js
+msgid "Login"
+msgstr ""
+
+#: src/components/Signup/SignupFormComponent.js
+msgid "Forgot Password?"
 msgstr ""
 
 #: src/components/ThemeEditorComponent.js
@@ -2054,6 +2088,10 @@ msgstr ""
 
 #: src/components/ThemeEditorComponent.js
 msgid "Edit all the colors used in the app"
+msgstr ""
+
+#: src/components/TradingServerComponent.js
+msgid "Select server"
 msgstr ""
 
 #: src/components/TransferRequests/TransferRequestItemComponent.js
@@ -2131,6 +2169,14 @@ msgid "Switch to {accountName}"
 msgstr ""
 
 #: src/components/VerificationRequired/VerificationRequiredComponent.js
+msgid "You are not yet verified. Verification under review."
+msgstr ""
+
+#: src/components/VerificationRequired/VerificationRequiredComponent.js
+msgid "You are not yet verified. Verify your identity to start trading."
+msgstr ""
+
+#: src/components/VerificationRequired/VerificationRequiredComponent.js
 msgid "Verification under review. Click here to check your verification status."
 msgstr ""
 
@@ -2184,6 +2230,14 @@ msgstr ""
 msgid "Total:"
 msgstr ""
 
+#: src/components/WithdrawSidePaneComponents/WithdrawFormComponent.js
+msgid "Received:"
+msgstr ""
+
+#: src/components/WithdrawSidePaneComponents/WithdrawTemplateFormComponent.js
+msgid "Max"
+msgstr ""
+
 #: src/components/WithdrawSidePaneComponents/WithdrawTemplateFormComponent.js
 msgid "Place Withdraw Ticket"
 msgstr ""
@@ -2226,6 +2280,10 @@ msgstr ""
 
 #: src/containers/CreateApiKeyContainer.js
 msgid "Please choose at least one activity"
+msgstr ""
+
+#: src/containers/TwoFactorAuthFormContainer.js
+msgid "Invalid Auth Code. Please try again."
 msgstr ""
 
 #: src/helpers/formTemplateHelper.js
@@ -2286,6 +2344,10 @@ msgstr ""
 
 #: src/helpers/formValidations.js
 msgid "File size must be under {a}mb"
+msgstr ""
+
+#: src/redux/actions/affiliateActions.js
+msgid "Could not create tag or tag already in use"
 msgstr ""
 
 #: src/redux/actions/confirmWithdrawActions.js
@@ -2402,67 +2464,19 @@ msgid "Still unable to connect after {attemptCount} attempts, trying again..."
 msgstr ""
 
 #: src/redux/selectors/openOrdersActivitySelector.js
-#: src/redux/selectors/recentActivitySelector.js
 msgid "Bought {Product1Symbol}"
 msgstr ""
 
 #: src/redux/selectors/openOrdersActivitySelector.js
-#: src/redux/selectors/recentActivitySelector.js
 msgid "Sold {Product1Symbol}"
 msgstr ""
 
 #: src/redux/selectors/openOrdersActivitySelector.js
-#: src/redux/selectors/recentActivitySelector.js
 msgid "with {Product2Symbol}"
 msgstr ""
 
 #: src/redux/selectors/openOrdersActivitySelector.js
-#: src/redux/selectors/recentActivitySelector.js
 msgid "for {Product2Symbol}"
-msgstr ""
-
-#: src/redux/selectors/recentActivitySelector.js
-msgid "Deposited {Product}"
-msgstr ""
-
-#: src/redux/selectors/recentActivitySelector.js
-msgid "from External Address"
-msgstr ""
-
-#: src/redux/selectors/recentActivitySelector.js
-msgid "from Bank"
-msgstr ""
-
-#: src/redux/selectors/recentActivitySelector.js
-msgid "AdminCancelled"
-msgstr ""
-
-#: src/redux/selectors/recentActivitySelector.js
-msgid "FullyProcessed"
-msgstr ""
-
-#: src/redux/selectors/recentActivitySelector.js
-msgid "Rejected"
-msgstr ""
-
-#: src/redux/selectors/recentActivitySelector.js
-msgid "New"
-msgstr ""
-
-#: src/redux/selectors/recentActivitySelector.js
-msgid "UserCancelled"
-msgstr ""
-
-#: src/redux/selectors/recentActivitySelector.js
-msgid "Withdrew {Product}"
-msgstr ""
-
-#: src/redux/selectors/recentActivitySelector.js
-msgid "to External Address"
-msgstr ""
-
-#: src/redux/selectors/recentActivitySelector.js
-msgid "to Bank"
 msgstr ""
 
 #: src/routeTemplates/advancedTemplate.js

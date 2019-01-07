@@ -24,7 +24,6 @@ msgstr ""
 #: src/components/AffiliateComponents/AffiliateComponent.js
 #: src/components/DemoSettings/DemoSettingsStaticComponent.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
-#: src/components/Retail/RetailSettings/ThemeForm/ThemeStaticComponent.js
 msgid "Edit"
 msgstr ""
 
@@ -80,7 +79,6 @@ msgstr ""
 
 #: src/components/AffiliateComponents/AffiliateModal.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
-#: src/components/Retail/RetailSettings/ThemeForm/ThemeConfirmComponent.js
 msgid "Update"
 msgstr ""
 
@@ -190,6 +188,8 @@ msgid "Withdrawals"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/CreateApiKey/CreateApiKeyComponent.js
+#: src/components/EnableTwoFactorAuth/Disable2FAForm.js
+#: src/components/EnableTwoFactorAuth/Enable2FAForm.js
 #: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
 #: src/components/Language/LanguageComponent.js
 #: src/components/Login/LoginFormComponent.js
@@ -201,7 +201,9 @@ msgstr ""
 #: src/components/ResetPasswordRequestForm/ResetPasswordRequestFormComponent.js
 #: src/components/Retail/RetailBuySell/RetailBuySellComponent.js
 #: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordConfirmComponent.js
+#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthForm.js
 #: src/components/Signup/SignupFormComponent.js
+#: src/components/TwoFactorAuthForm/TwoFactorAuthFormComponent.js
 msgid "Processing..."
 msgstr ""
 
@@ -210,12 +212,12 @@ msgid "Please choose at least one activity"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/NewApiKey/NewApiKeyModal.js
+#: src/components/EnableTwoFactorAuth/Enable2FAForm.js
 #: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
 #: src/components/KYCSettings/KYCWorkflows/KYCIdentityMindLegacy/KYCConfirmMitekModalComponent.js
 #: src/components/ReportSidePaneComponents/ConfirmCyclicalReport/ConfirmCyclicalReportForm.js
 #: src/components/ReportSidePaneComponents/ConfirmSingleReport/ConfirmSingleReportForm.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
-#: src/components/Retail/RetailSettings/ThemeForm/ThemeConfirmComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
@@ -255,7 +257,6 @@ msgstr ""
 #: src/components/Retail/RetailBuySell/RetailBalancesComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
 #: src/layouts/Responsive/TrandingLayout/TradingLayoutContent1280Px.js
-#: src/layouts/Responsive/TrandingLayout/TradingLayoutContent1440Px.js
 #: src/layouts/Responsive/TrandingLayout/TradingLayoutContent768Px.js
 #: src/routeTemplates/advancedTemplate.js
 msgid "Balances"
@@ -342,7 +343,6 @@ msgstr ""
 
 #: src/components/common/Pagination/PaginationComponent.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionFormEditableComponent.js
-#: src/components/Retail/RetailSettings/ThemeForm/ThemeFormEditableComponent.js
 msgid "Next"
 msgstr ""
 
@@ -448,9 +448,6 @@ msgstr ""
 
 #: src/components/DemoSettings/DemoSettingsEditableComponent.js
 #: src/components/DemoSettings/DemoSettingsStaticComponent.js
-#: src/components/Retail/RetailSettings/ThemeForm/ThemeConfirmComponent.js
-#: src/components/Retail/RetailSettings/ThemeForm/ThemeFormEditableComponent.js
-#: src/components/Retail/RetailSettings/ThemeForm/ThemeStaticComponent.js
 msgid "Color Theme"
 msgstr ""
 
@@ -608,6 +605,11 @@ msgid "Account Number:"
 msgstr ""
 
 #: src/components/DepthChart/DepthChartComponent.js
+#: src/layouts/Responsive/TrandingLayout/TradingLayoutCharts1280Px.js
+msgid "Depth Chart"
+msgstr ""
+
+#: src/components/DepthChart/DepthChartComponent.js
 msgid "Mid Market Price"
 msgstr ""
 
@@ -617,6 +619,10 @@ msgstr ""
 
 #: src/components/EnableTwoFactorAuth/Disable2FAForm.js
 msgid "Type Authentication Code Here"
+msgstr ""
+
+#: src/components/EnableTwoFactorAuth/Disable2FAForm.js
+msgid "Ok"
 msgstr ""
 
 #: src/components/EnableTwoFactorAuth/Disable2FAModal.js
@@ -680,6 +686,7 @@ msgstr ""
 
 #: src/components/InstrumentSelector/InstrumentSelectorPopupComponent.js
 #: src/components/OrderBookComponents/OrderBookComponent.js
+#: src/components/OrderEntryComponents/AdvancedOrderForm/AdvancedOrderFormComponent.js
 #: src/components/OrderHistoryComponents/FilledOrdersComponent.js
 #: src/components/OrderHistoryComponents/InactiveOrdersComponent.js
 #: src/components/OrderHistoryComponents/OpenOrdersComponent.js
@@ -899,6 +906,7 @@ msgid "Complete this form to verify your account to raise your limits and enable
 msgstr ""
 
 #: src/components/KYCSettings/KYCWorkflows/KYCIdentityMindLegacy/KYCIdentityMindLegacyFormComponent.js
+#: src/components/TwoFactorAuthForm/TwoFactorAuthFormComponent.js
 msgid "Submit"
 msgstr ""
 
@@ -956,7 +964,6 @@ msgid "Problem Logging In?"
 msgstr ""
 
 #: src/components/Login/LoginFormContainer.js
-#: src/components/Login/LoginFormContainer.test.js
 msgid "We were unable to login, check your internet connection and try refreshing the page."
 msgstr ""
 
@@ -1126,11 +1133,8 @@ msgid "Order Size:"
 msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderMarketPriceComponent.js
-msgid "Bid Price"
-msgstr ""
-
-#: src/components/OrderEntryComponents/AdvancedOrderMarketPriceComponent.js
-msgid "Ask Price "
+#: src/components/OrderEntryComponents/OrderEntryComponent.js
+msgid "Market Price"
 msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderSidePane/AdvancedOrderSidePaneComponent.js
@@ -1152,7 +1156,6 @@ msgstr ""
 
 #: src/components/OrderEntryComponents/OrderEntryComponent.js
 #: src/layouts/Responsive/TrandingLayout/TradingLayoutContent1280Px.js
-#: src/layouts/Responsive/TrandingLayout/TradingLayoutContent1440Px.js
 #: src/layouts/Responsive/TrandingLayout/TradingLayoutContent768Px.js
 msgid "Order Entry"
 msgstr ""
@@ -1177,10 +1180,6 @@ msgstr ""
 
 #: src/components/OrderEntryComponents/OrderEntryComponent.js
 msgid "Sell Amount"
-msgstr ""
-
-#: src/components/OrderEntryComponents/OrderEntryComponent.js
-msgid "Market Price"
 msgstr ""
 
 #: src/components/OrderEntryComponents/OrderEntryComponent.js
@@ -1794,6 +1793,10 @@ msgid "Confirmation"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
+msgid "Limit (Fill or Kill)"
+msgstr ""
+
+#: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
 msgid "{product} to Buy"
 msgstr ""
 
@@ -1828,19 +1831,6 @@ msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
 msgid "{symbol1} to Sell"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
-msgid "Display Currency"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionFormEditableComponent.js
-msgid "Base currency misconfigured. Contact the site’s operators."
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionFormEditableComponent.js
-msgid "Base Currency"
 msgstr ""
 
 #: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordConfirmComponent.js
@@ -1881,10 +1871,6 @@ msgstr ""
 
 #: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
 msgid "Region"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
-msgid "Theme"
 msgstr ""
 
 #: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
@@ -2142,6 +2128,10 @@ msgstr ""
 msgid "Enter the token from your Authenticator app."
 msgstr ""
 
+#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthForm.js
+msgid "Authenticate Transfer"
+msgstr ""
+
 #: src/components/SettingsMenu/SettingsMenuComponent.js
 #: src/routeTemplates/advancedTemplate.js
 #: src/routeTemplates/retailTemplate.js
@@ -2296,11 +2286,8 @@ msgid "Problem with verification?"
 msgstr ""
 
 #: src/components/WalletCards/WalletCardComponent.js
+#: src/components/WalletRows/WalletRowComponent.js
 msgid "Current Balance"
-msgstr ""
-
-#: src/components/WalletCards/WalletCardComponent.js
-msgid "Value"
 msgstr ""
 
 #: src/components/WalletCards/WalletCardComponent.js
@@ -2464,10 +2451,6 @@ msgstr ""
 msgid "Time must be before {a}"
 msgstr ""
 
-#: src/layouts/Responsive/TrandingLayout/TradingLayoutCharts1280Px.js
-msgid "Depth Chart"
-msgstr ""
-
 #: src/redux/actions/affiliateActions.js
 msgid "Could not create tag or tag already in use"
 msgstr ""
@@ -2575,10 +2558,6 @@ msgstr ""
 
 #: src/redux/actions/withdrawActions.js
 msgid "Your withdraw has been successfully canceled"
-msgstr ""
-
-#: src/redux/middlewares/themeMiddleware.js
-msgid "The site"
 msgstr ""
 
 #: src/redux/middlewares/wsConnectionMiddleware.js

@@ -26,7 +26,8 @@
   "bin": {
     "export-pot": "./bin/export-pot.js",
     "import-po": "./bin/import-po.js",
-    "apex-web-upgrade": "./bin/apex-web-upgrade.js"
+    "apex-web-upgrade": "./bin/apex-web-upgrade.js",
+    "set-themes": "./bin/set-themes.js"
   },
   "homepage": "https://github.com/alphapoint/apex-web-tools#readme",
   "scripts": {}

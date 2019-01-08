@@ -67,6 +67,10 @@ msgid "Create or Edit Affiliate Tag"
 msgstr ""
 
 #: src/components/AffiliateComponents/AffiliateModal.js
+msgid "Change tag"
+msgstr ""
+
+#: src/components/AffiliateComponents/AffiliateModal.js
 #: src/components/DepositSidePaneComponents/DepositTemplateFormComponent.js
 #: src/components/DepositSidePaneComponents/DepositWorkflows/ManualDepositWorkflow/ManualDepositWorkflowComponent.js
 #: src/components/WithdrawSidePaneComponents/WithdrawTemplateForm/WithdrawTemplateFormComponent.js
@@ -74,7 +78,8 @@ msgid "Submitting..."
 msgstr ""
 
 #: src/components/AffiliateComponents/AffiliateModal.js
-msgid "UPDATE"
+#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
+msgid "Update"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ApiKeyList/ApiKeyListComponent.js
@@ -261,6 +266,57 @@ msgstr ""
 msgid "Invalid {productSymbol} address"
 msgstr ""
 
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+msgid "January"
+msgstr ""
+
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+msgid "February"
+msgstr ""
+
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+msgid "March"
+msgstr ""
+
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+msgid "April"
+msgstr ""
+
+#. May (the month)
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+#: src/components/PriceChart/ApexChartComponent.js
+#: src/components/RetailPriceChart/RetailPriceChartComponent.js
+msgid "May"
+msgstr ""
+
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+msgid "June"
+msgstr ""
+
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+msgid "July"
+msgstr ""
+
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+msgid "August"
+msgstr ""
+
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+msgid "September"
+msgstr ""
+
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+msgid "October"
+msgstr ""
+
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+msgid "November"
+msgstr ""
+
+#: src/components/common/APDatePickerDropdown/APDatePickerDropdown.js
+msgid "December"
+msgstr ""
+
 #: src/components/common/APImageUpload/APImageUpload.js
 msgid "Choose another image"
 msgstr ""
@@ -340,6 +396,7 @@ msgstr ""
 #: src/components/OrderHistoryComponents/OrderHistoryTradeReportsComponent.js
 #: src/components/OrderHistoryComponents/WithdrawStatusComponent.js
 #: src/components/Retail/RetailBuySell/RetailOrderOverviewComponent.js
+#: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
 msgid "Fee"
 msgstr ""
@@ -548,6 +605,7 @@ msgid "Account Number:"
 msgstr ""
 
 #: src/components/DepthChart/DepthChartComponent.js
+#: src/layouts/Responsive/TrandingLayout/TradingLayoutCharts1280Px.js
 msgid "Depth Chart"
 msgstr ""
 
@@ -1298,12 +1356,6 @@ msgstr ""
 msgid "Apr"
 msgstr ""
 
-#. May (the month)
-#: src/components/PriceChart/ApexChartComponent.js
-#: src/components/RetailPriceChart/RetailPriceChartComponent.js
-msgid "May"
-msgstr ""
-
 #. June
 #: src/components/PriceChart/ApexChartComponent.js
 #: src/components/RetailPriceChart/RetailPriceChartComponent.js
@@ -1368,6 +1420,7 @@ msgstr ""
 
 #: src/components/PriceChart/ApexChartComponent.js
 #: src/components/PriceChart/TVChartComponent.js
+#: src/layouts/Responsive/TrandingLayout/TradingLayoutCharts1280Px.js
 msgid "Price Chart"
 msgstr ""
 
@@ -1780,10 +1833,6 @@ msgstr ""
 msgid "{symbol1} to Sell"
 msgstr ""
 
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
-msgid "Update"
-msgstr ""
-
 #: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordConfirmComponent.js
 msgid "Check your email with instructions on changing your password"
 msgstr ""
@@ -1937,11 +1986,11 @@ msgid "Final Balance:"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/Receive/ReceiveComponent.js
-msgid "Request by Email"
+msgid "Show Wallet Address"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/Receive/ReceiveComponent.js
-msgid "Show Wallet Address"
+msgid "Request by Email"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/ReceiveAddress/ReceiveAddressComponent.js
@@ -1990,11 +2039,11 @@ msgid "Options for withdraw"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
-msgid "To Email Address"
+msgid "External Wallet"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
-msgid "External Wallet"
+msgid "To Email Address"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
@@ -2243,7 +2292,7 @@ msgstr ""
 
 #: src/components/WalletCards/WalletCardComponent.js
 #: src/components/WalletRows/WalletRowComponent.js
-msgid "View Activity"
+msgid "Details"
 msgstr ""
 
 #: src/components/WalletCards/WalletCardGridContainer.js
@@ -2384,6 +2433,22 @@ msgstr ""
 
 #: src/helpers/formValidations.js
 msgid "File size must be under {a}mb"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Date must be before {a}"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Date must be after {a}"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Time must be after {a}"
+msgstr ""
+
+#: src/helpers/formValidations.js
+msgid "Time must be before {a}"
 msgstr ""
 
 #: src/redux/actions/affiliateActions.js

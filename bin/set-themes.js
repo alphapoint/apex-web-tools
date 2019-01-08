@@ -10,13 +10,8 @@ files = files.filter(f => f.split('.').pop() === 'css')
   .map(fileName => fileName.replace('.css', ''));
 
 window.APEXWebConfig.global.themes = files;
-console.log(files);
-
 
 const configContent = JSON.stringify(window.APEXWebConfig, null, 2);
-
-
-console.log(configContent);
 
 fs.writeFileSync(
   path.join('local', 'config.js'),

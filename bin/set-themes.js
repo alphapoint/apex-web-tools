@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 global.window = {};
-require(path.join('..', 'local', 'config.js'));
+require(path.join('local', 'config.js'));
 
 let files = fs.readdirSync(path.join('local', 'themes'));
 files = files.filter(f => f.split('.').pop() === 'css')

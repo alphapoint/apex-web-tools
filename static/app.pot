@@ -7,7 +7,7 @@ msgid "All of your activity on the exchange is available for you to download as 
 msgstr ""
 
 #: src/components/ActivityReportingComponent/ActivityReportingComponent.js
-#: src/components/Retail/RetailSettings/RetailApiKeysFormComponent.js
+#: src/components/Settings/RetailApiKeysFormComponent.js
 msgid "Create New:"
 msgstr ""
 
@@ -22,8 +22,10 @@ msgid "Cyclical Report"
 msgstr ""
 
 #: src/components/AffiliateComponents/AffiliateComponent.js
-#: src/components/DemoSettings/DemoSettingsStaticComponent.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
+#: src/components/Settings/DemoSettings/DemoSettingsStaticComponent.js
+#: src/components/Settings/RegionSettings/RegionSettingsComponent.js
+#: src/components/Settings/ThemeForm/ThemeSettingsComponent.js
 msgid "Edit"
 msgstr ""
 
@@ -78,7 +80,8 @@ msgid "Submitting..."
 msgstr ""
 
 #: src/components/AffiliateComponents/AffiliateModal.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
+#: src/components/Settings/RegionSettings/RegionConfirmComponent.js
+#: src/components/Settings/ThemeForm/ThemeConfirmComponent.js
 msgid "Update"
 msgstr ""
 
@@ -100,6 +103,7 @@ msgid "Allows Trading"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ApiKeyList/ApiKeyListComponent.js
+#: src/components/ApiKeysSidePaneComponents/RemoveApiKeyModal/RemoveApiKeyModal.js
 msgid "Delete"
 msgstr ""
 
@@ -125,12 +129,12 @@ msgid "API Keys"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ApiKeysForm/ApiKeysFormComponent.js
-#: src/components/Retail/RetailSettings/RetailApiKeysFormComponent.js
+#: src/components/Settings/RetailApiKeysFormComponent.js
 msgid "The Public API is available in HTTP, WebSocket, and Get Request, with streaming data on products, product pairs, ticker activity, trades, and the order book."
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/ApiKeysForm/ApiKeysFormComponent.js
-#: src/components/Retail/RetailSettings/RetailApiKeysFormComponent.js
+#: src/components/Settings/RetailApiKeysFormComponent.js
 msgid "The Private API is accessible only by registered users and enables access and control of a user's account. All key user functions may be executed from the API, including account and order management activities."
 msgstr ""
 
@@ -188,8 +192,6 @@ msgid "Withdrawals"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/CreateApiKey/CreateApiKeyComponent.js
-#: src/components/EnableTwoFactorAuth/Disable2FAForm.js
-#: src/components/EnableTwoFactorAuth/Enable2FAForm.js
 #: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
 #: src/components/Language/LanguageComponent.js
 #: src/components/Login/LoginFormComponent.js
@@ -200,10 +202,8 @@ msgstr ""
 #: src/components/ReportBlockTradeSidePaneComponents/ReportBlockTradeComponent.js
 #: src/components/ResetPasswordRequestForm/ResetPasswordRequestFormComponent.js
 #: src/components/Retail/RetailBuySell/RetailBuySellComponent.js
-#: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordConfirmComponent.js
-#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthForm.js
+#: src/components/Settings/ResetPasswordForm/ResetPasswordConfirmComponent.js
 #: src/components/Signup/SignupFormComponent.js
-#: src/components/TwoFactorAuthForm/TwoFactorAuthFormComponent.js
 msgid "Processing..."
 msgstr ""
 
@@ -212,24 +212,20 @@ msgid "Please choose at least one activity"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/NewApiKey/NewApiKeyModal.js
-#: src/components/EnableTwoFactorAuth/Enable2FAForm.js
 #: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
 #: src/components/KYCSettings/KYCWorkflows/KYCIdentityMindLegacy/KYCConfirmMitekModalComponent.js
 #: src/components/ReportSidePaneComponents/ConfirmCyclicalReport/ConfirmCyclicalReportForm.js
 #: src/components/ReportSidePaneComponents/ConfirmSingleReport/ConfirmSingleReportForm.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/RetailFiatDepositModal.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawModal.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
+#: src/components/Settings/RegionSettings/RegionConfirmComponent.js
+#: src/components/Settings/ThemeForm/ThemeConfirmComponent.js
 msgid "Confirm"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/RemoveApiKeyModal/RemoveApiKeyModal.js
 msgid "Delete API Key"
-msgstr ""
-
-#: src/components/ApiKeysSidePaneComponents/RemoveApiKeyModal/RemoveApiKeyModal.js
-msgid "Disable"
 msgstr ""
 
 #: src/components/ApiKeysSidePaneComponents/RemoveApiKeyModal/RemoveApiKeyModal.js
@@ -257,6 +253,7 @@ msgstr ""
 #: src/components/Retail/RetailBuySell/RetailBalancesComponent.js
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
 #: src/layouts/Responsive/TrandingLayout/TradingLayoutContent1280Px.js
+#: src/layouts/Responsive/TrandingLayout/TradingLayoutContent1440Px.js
 #: src/layouts/Responsive/TrandingLayout/TradingLayoutContent768Px.js
 #: src/routeTemplates/advancedTemplate.js
 msgid "Balances"
@@ -342,7 +339,8 @@ msgid "Loading ..."
 msgstr ""
 
 #: src/components/common/Pagination/PaginationComponent.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionFormEditableComponent.js
+#: src/components/Settings/RegionSettings/RegionFormComponent.js
+#: src/components/Settings/ThemeForm/ThemeFormComponent.js
 msgid "Next"
 msgstr ""
 
@@ -428,37 +426,29 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
+#: src/components/ConfirmLimitOrderModal/ConfirmLimitOrderModalComponent.js
+msgid "Confirm Your Limit Order"
+msgstr ""
+
+#: src/components/ConfirmLimitOrderModal/ConfirmLimitOrderModalComponent.js
+msgid "Confirm Order"
+msgstr ""
+
+#: src/components/ConfirmLimitOrderModal/ConfirmLimitOrderModalComponent.js
+msgid "Please, confirm your Limir Order"
+msgstr ""
+
+#: src/components/ConfirmLimitOrderModal/ConfirmLimitOrderModalComponent.js
+msgid "You trying to place order with `Limit price` below market price"
+msgstr ""
+
+#: src/components/ConfirmLimitOrderModal/ConfirmLimitOrderModalComponent.js
+msgid "Please, confirm your order or exit"
+msgstr ""
+
 #: src/components/ConfirmWithdraw/ConfirmWithdrawComponent.js
 #: src/components/ResetPasswordForm/ResetPasswordFormComponent.js
 msgid "Go to Exchange"
-msgstr ""
-
-#: src/components/DemoSettings/DemoSettingsComponent.js
-msgid "Demo Settings."
-msgstr ""
-
-#: src/components/DemoSettings/DemoSettingsEditableComponent.js
-msgid "Edit Settings"
-msgstr ""
-
-#: src/components/DemoSettings/DemoSettingsEditableComponent.js
-#: src/components/DemoSettings/DemoSettingsStaticComponent.js
-msgid "Template"
-msgstr ""
-
-#: src/components/DemoSettings/DemoSettingsEditableComponent.js
-#: src/components/DemoSettings/DemoSettingsStaticComponent.js
-msgid "Color Theme"
-msgstr ""
-
-#: src/components/DemoSettings/DemoSettingsEditableComponent.js
-#: src/components/DemoSettings/DemoSettingsStaticComponent.js
-msgid "Chart Type"
-msgstr ""
-
-#: src/components/DemoSettings/DemoSettingsStaticComponent.js
-#: src/routeTemplates/londonTemplate.js
-msgid "Settings"
 msgstr ""
 
 #: src/components/DepositConfirmation/DepositConfirmationComponent.js
@@ -605,11 +595,6 @@ msgid "Account Number:"
 msgstr ""
 
 #: src/components/DepthChart/DepthChartComponent.js
-#: src/layouts/Responsive/TrandingLayout/TradingLayoutCharts1280Px.js
-msgid "Depth Chart"
-msgstr ""
-
-#: src/components/DepthChart/DepthChartComponent.js
 msgid "Mid Market Price"
 msgstr ""
 
@@ -619,10 +604,6 @@ msgstr ""
 
 #: src/components/EnableTwoFactorAuth/Disable2FAForm.js
 msgid "Type Authentication Code Here"
-msgstr ""
-
-#: src/components/EnableTwoFactorAuth/Disable2FAForm.js
-msgid "Ok"
 msgstr ""
 
 #: src/components/EnableTwoFactorAuth/Disable2FAModal.js
@@ -686,7 +667,6 @@ msgstr ""
 
 #: src/components/InstrumentSelector/InstrumentSelectorPopupComponent.js
 #: src/components/OrderBookComponents/OrderBookComponent.js
-#: src/components/OrderEntryComponents/AdvancedOrderForm/AdvancedOrderFormComponent.js
 #: src/components/OrderHistoryComponents/FilledOrdersComponent.js
 #: src/components/OrderHistoryComponents/InactiveOrdersComponent.js
 #: src/components/OrderHistoryComponents/OpenOrdersComponent.js
@@ -710,39 +690,6 @@ msgstr ""
 
 #: src/components/InstrumentSelector/InstrumentSelectorPopupComponent.js
 msgid "No coin is available"
-msgstr ""
-
-#: src/components/InstrumentTable/InstrumentTableComponent.js
-#: src/components/MarketDataCardsComponent/MarketDataCardComponent.js
-msgid "Last Price"
-msgstr ""
-
-#: src/components/InstrumentTable/InstrumentTableComponent.js
-msgid "24 Hour Pct Chg"
-msgstr ""
-
-#: src/components/InstrumentTable/InstrumentTableComponent.js
-#: src/components/MarketDataCardsComponent/MarketDataCardComponent.js
-#: src/constants/sendOrder/pegPriceTypeConstants.js
-msgid "Bid"
-msgstr ""
-
-#: src/components/InstrumentTable/InstrumentTableComponent.js
-#: src/components/MarketDataCardsComponent/MarketDataCardComponent.js
-#: src/constants/sendOrder/pegPriceTypeConstants.js
-msgid "Ask"
-msgstr ""
-
-#: src/components/InstrumentTable/InstrumentTableComponent.js
-msgid "24 Hour Volume"
-msgstr ""
-
-#: src/components/InstrumentTable/InstrumentTableComponent.js
-msgid "24 Hour Low"
-msgstr ""
-
-#: src/components/InstrumentTable/InstrumentTableComponent.js
-msgid "24 Hour High"
 msgstr ""
 
 #: src/components/KYCSettings/KYCConfirmLevelModalComponent.js
@@ -906,7 +853,6 @@ msgid "Complete this form to verify your account to raise your limits and enable
 msgstr ""
 
 #: src/components/KYCSettings/KYCWorkflows/KYCIdentityMindLegacy/KYCIdentityMindLegacyFormComponent.js
-#: src/components/TwoFactorAuthForm/TwoFactorAuthFormComponent.js
 msgid "Submit"
 msgstr ""
 
@@ -937,13 +883,13 @@ msgstr ""
 #: src/components/Login/LoginFormComponent.js
 #: src/components/ProblemLoggingIn/ProblemLoggingInFormComponent.js
 #: src/components/ProfileForm/ProfileFormComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailUserProfileStaticComponent.js
+#: src/components/Settings/ProfileForm/RetailUserProfileStaticComponent.js
 #: src/components/Signup/SignupFormComponent.js
 msgid "Username"
 msgstr ""
 
 #: src/components/Login/LoginFormComponent.js
-#: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
+#: src/components/Settings/RetailProfileAndSettingsComponent.js
 #: src/components/Signup/SignupFormComponent.js
 msgid "Password"
 msgstr ""
@@ -964,6 +910,7 @@ msgid "Problem Logging In?"
 msgstr ""
 
 #: src/components/Login/LoginFormContainer.js
+#: src/components/Login/LoginFormContainer.test.js
 msgid "We were unable to login, check your internet connection and try refreshing the page."
 msgstr ""
 
@@ -996,6 +943,10 @@ msgid "Use default fees"
 msgstr ""
 
 #: src/components/MarketDataCardsComponent/MarketDataCardComponent.js
+msgid "Last Price"
+msgstr ""
+
+#: src/components/MarketDataCardsComponent/MarketDataCardComponent.js
 msgid "24-Hour Change"
 msgstr ""
 
@@ -1013,6 +964,16 @@ msgstr ""
 
 #: src/components/MarketDataCardsComponent/MarketDataCardComponent.js
 msgid "24-Hour Low"
+msgstr ""
+
+#: src/components/MarketDataCardsComponent/MarketDataCardComponent.js
+#: src/constants/sendOrder/pegPriceTypeConstants.js
+msgid "Bid"
+msgstr ""
+
+#: src/components/MarketDataCardsComponent/MarketDataCardComponent.js
+#: src/constants/sendOrder/pegPriceTypeConstants.js
+msgid "Ask"
 msgstr ""
 
 #: src/components/MarketOverview/MarketOverviewComponent.js
@@ -1133,8 +1094,11 @@ msgid "Order Size:"
 msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderMarketPriceComponent.js
-#: src/components/OrderEntryComponents/OrderEntryComponent.js
-msgid "Market Price"
+msgid "Bid Price"
+msgstr ""
+
+#: src/components/OrderEntryComponents/AdvancedOrderMarketPriceComponent.js
+msgid "Ask Price "
 msgstr ""
 
 #: src/components/OrderEntryComponents/AdvancedOrderSidePane/AdvancedOrderSidePaneComponent.js
@@ -1156,6 +1120,7 @@ msgstr ""
 
 #: src/components/OrderEntryComponents/OrderEntryComponent.js
 #: src/layouts/Responsive/TrandingLayout/TradingLayoutContent1280Px.js
+#: src/layouts/Responsive/TrandingLayout/TradingLayoutContent1440Px.js
 #: src/layouts/Responsive/TrandingLayout/TradingLayoutContent768Px.js
 msgid "Order Entry"
 msgstr ""
@@ -1180,6 +1145,10 @@ msgstr ""
 
 #: src/components/OrderEntryComponents/OrderEntryComponent.js
 msgid "Sell Amount"
+msgstr ""
+
+#: src/components/OrderEntryComponents/OrderEntryComponent.js
+msgid "Market Price"
 msgstr ""
 
 #: src/components/OrderEntryComponents/OrderEntryComponent.js
@@ -1426,7 +1395,7 @@ msgstr ""
 
 #: src/components/ProblemLoggingIn/ProblemLoggingInFormComponent.js
 #: src/components/ProfileForm/ProfileFormComponent.js
-#: src/components/Retail/RetailSettings/ProfileForm/RetailUserProfileStaticComponent.js
+#: src/components/Settings/ProfileForm/RetailUserProfileStaticComponent.js
 #: src/components/Signup/SignupFormComponent.js
 msgid "Email"
 msgstr ""
@@ -1452,19 +1421,20 @@ msgid "Provide us with your {label} below. We will follow up with reset instruct
 msgstr ""
 
 #: src/components/ProblemLoggingIn/ProblemLoggingInFormComponent.js
-#: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordConfirmComponent.js
+#: src/components/Settings/ResetPasswordForm/ResetPasswordConfirmComponent.js
 msgid "Send Email"
 msgstr ""
 
 #: src/components/ProfileForm/ProfileFormComponent.js
-#: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
+#: src/components/Settings/RetailProfileAndSettingsComponent.js
 msgid "Profile"
 msgstr ""
 
 #: src/components/ProfileForm/ProfileFormComponent.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionConfirmComponent.js
-#: src/components/Retail/RetailSettings/RegionForm/RetailRegionFormEditableComponent.js
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
+#: src/components/Settings/RegionSettings/RegionConfirmComponent.js
+#: src/components/Settings/RegionSettings/RegionFormComponent.js
+#: src/components/Settings/RegionSettings/RegionSettingsComponent.js
 msgid "Language"
 msgstr ""
 
@@ -1534,10 +1504,6 @@ msgstr ""
 
 #: src/components/RecentActivity/RecentActivityComponent.js
 msgid "Time & Date"
-msgstr ""
-
-#: src/components/RecentActivity/RecentActivityComponent.js
-msgid "Recent Activity"
 msgstr ""
 
 #: src/components/RecentActivity/RecentActivityComponent.js
@@ -1732,7 +1698,7 @@ msgid "Very Strong"
 msgstr ""
 
 #: src/components/ResetPasswordForm/ResetPasswordFormComponent.js
-#: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordStaticComponent.js
+#: src/components/Settings/ResetPasswordForm/ResetPasswordFormComponent.js
 msgid "Reset Your Password"
 msgstr ""
 
@@ -1750,6 +1716,7 @@ msgstr ""
 
 #: src/components/ResetPasswordForm/ResetPasswordFormComponent.js
 #: src/components/ResetPasswordRequestForm/ResetPasswordRequestFormComponent.js
+#: src/components/Settings/ResetPasswordForm/ResetPasswordFormComponent.js
 msgid "Reset Password"
 msgstr ""
 
@@ -1833,66 +1800,14 @@ msgstr ""
 msgid "{symbol1} to Sell"
 msgstr ""
 
-#: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordConfirmComponent.js
-msgid "Check your email with instructions on changing your password"
+#: src/components/Retail/RetailBuySell/RetailSelectAnInstument/RetailSelectAnInstumentComponent.js
+msgid "Select an Instrument:"
 msgstr ""
 
-#: src/components/Retail/RetailSettings/ResetPasswordForm/RetailResetPasswordStaticComponent.js
-msgid "To change you password, we will send you an email that will allow you to access out Reset Password feature. Click the button above to receive the email."
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailApiKeysFormComponent.js
-msgid "About API Keys"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailApiKeysFormComponent.js
-msgid "API Key"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailApiKeysFormComponent.js
-msgid "View: API Documentation »"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailEnableTwoFactorAuthComponent.js
-msgid "Two-Factor Authentication (2FA) adds another layer of protection to your account by requiring an additional passcode during the logging in process."
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailEnableTwoFactorAuthComponent.js
-msgid "You will need to download Google Authenticator on your smartphone as part of the process to enable 2FA."
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
-msgid "Update Profile and Security Settings."
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
-msgid " Here you can make general settings such as..."
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
-msgid "Region"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailProfileAndSettingsComponent.js
-#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthModal.js
-#: src/components/TwoFactorAuthForm/TwoFactorAuthFormComponent.js
-msgid "Two-Factor Authentication"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailTransferHistoryComponent.js
-msgid "No Transfer History"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailTransferHistoryComponent.js
-msgid "Transfer History"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailUserContactsComponent.js
-msgid "Trading with Other On-Exchange Participants"
-msgstr ""
-
-#: src/components/Retail/RetailSettings/RetailUserContactsComponent.js
-msgid "You can freely transfer currency with other participants on the exchange. Simply provide the email address for your contact during the “Send” or “Receive” process. If the email address is registered on the exchange, then the user will receive the transfer. If the email address is not registered, the user will get an invitation to join the exchange."
+#: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
+#: src/components/Settings/RegionSettings/RegionConfirmComponent.js
+#: src/components/Settings/RegionSettings/RegionSettingsComponent.js
+msgid "Display Currency"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatDeposit/DepositReferenceIdModal.js
@@ -1962,7 +1877,7 @@ msgid "Remaining Balance"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawDetailsComponent.js
-msgid "Note - The withdrawal and transfer of these funds might take up to 7 business days, and it’s subject to operator review."
+msgid "{text}"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/RetailFiatWithdraw/RetailFiatWithdrawFormComponent.js
@@ -2128,12 +2043,122 @@ msgstr ""
 msgid "Enter the token from your Authenticator app."
 msgstr ""
 
-#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthForm.js
-msgid "Authenticate Transfer"
+#: src/components/SendReceiveSidePane/SendReceiveTwoFactorAuth/SendReceiveTwoFactorAuthModal.js
+#: src/components/Settings/RetailProfileAndSettingsComponent.js
+#: src/components/TwoFactorAuthForm/TwoFactorAuthFormComponent.js
+msgid "Two-Factor Authentication"
+msgstr ""
+
+#: src/components/Settings/DemoSettings/DemoSettingsComponent.js
+msgid "Demo Settings."
+msgstr ""
+
+#: src/components/Settings/DemoSettings/DemoSettingsEditableComponent.js
+msgid "Edit Settings"
+msgstr ""
+
+#: src/components/Settings/DemoSettings/DemoSettingsEditableComponent.js
+#: src/components/Settings/DemoSettings/DemoSettingsStaticComponent.js
+msgid "Template"
+msgstr ""
+
+#: src/components/Settings/DemoSettings/DemoSettingsEditableComponent.js
+#: src/components/Settings/DemoSettings/DemoSettingsStaticComponent.js
+#: src/components/Settings/ThemeForm/ThemeConfirmComponent.js
+#: src/components/Settings/ThemeForm/ThemeFormComponent.js
+#: src/components/Settings/ThemeForm/ThemeSettingsComponent.js
+msgid "Color Theme"
+msgstr ""
+
+#: src/components/Settings/DemoSettings/DemoSettingsEditableComponent.js
+#: src/components/Settings/DemoSettings/DemoSettingsStaticComponent.js
+msgid "Chart Type"
+msgstr ""
+
+#: src/components/Settings/DemoSettings/DemoSettingsStaticComponent.js
+#: src/routeTemplates/londonTemplate.js
+msgid "Settings"
+msgstr ""
+
+#: src/components/Settings/RegionSettings/RegionFormComponent.js
+msgid "Base currency misconfigured. Contact the site’s operators."
+msgstr ""
+
+#: src/components/Settings/RegionSettings/RegionFormComponent.js
+msgid "Base Currency"
+msgstr ""
+
+#: src/components/Settings/RegionSettings/RegionSettingsComponent.js
+msgid "Edit Language"
+msgstr ""
+
+#: src/components/Settings/ResetPasswordForm/ResetPasswordConfirmComponent.js
+msgid "Check your email with instructions on changing your password"
+msgstr ""
+
+#: src/components/Settings/ResetPasswordForm/ResetPasswordFormComponent.js
+msgid "To change your password, we will send you an email that will allow you to access the Reset Password feature. Click the button below to receive the email."
+msgstr ""
+
+#: src/components/Settings/RetailApiKeysFormComponent.js
+msgid "About API Keys"
+msgstr ""
+
+#: src/components/Settings/RetailApiKeysFormComponent.js
+msgid "API Key"
+msgstr ""
+
+#: src/components/Settings/RetailApiKeysFormComponent.js
+msgid "View: API Documentation »"
+msgstr ""
+
+#: src/components/Settings/RetailEnableTwoFactorAuthComponent.js
+msgid "Two-Factor Authentication (2FA) adds another layer of protection to your account by requiring an additional passcode during the logging in process."
+msgstr ""
+
+#: src/components/Settings/RetailEnableTwoFactorAuthComponent.js
+msgid "You will need to download Google Authenticator on your smartphone as part of the process to enable 2FA."
+msgstr ""
+
+#: src/components/Settings/RetailProfileAndSettingsComponent.js
+msgid "Update Profile and Security Settings."
+msgstr ""
+
+#: src/components/Settings/RetailProfileAndSettingsComponent.js
+msgid " Here you can make general settings such as..."
+msgstr ""
+
+#: src/components/Settings/RetailProfileAndSettingsComponent.js
+msgid "Region"
+msgstr ""
+
+#: src/components/Settings/RetailProfileAndSettingsComponent.js
+msgid "Theme"
+msgstr ""
+
+#: src/components/Settings/RetailTransferHistoryComponent.js
+msgid "No Transfer History"
+msgstr ""
+
+#: src/components/Settings/RetailTransferHistoryComponent.js
+msgid "Transfer History"
+msgstr ""
+
+#: src/components/Settings/RetailUserContactsComponent.js
+msgid "Trading with Other On-Exchange Participants"
+msgstr ""
+
+#: src/components/Settings/RetailUserContactsComponent.js
+msgid "You can freely transfer currency with other participants on the exchange. Simply provide the email address for your contact during the “Send” or “Receive” process. If the email address is registered on the exchange, then the user will receive the transfer. If the email address is not registered, the user will get an invitation to join the exchange."
+msgstr ""
+
+#: src/components/Settings/ThemeForm/ThemeSettingsComponent.js
+msgid "Edit Theme"
 msgstr ""
 
 #: src/components/SettingsMenu/SettingsMenuComponent.js
 #: src/routeTemplates/advancedTemplate.js
+#: src/routeTemplates/milanAltTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "User Settings"
 msgstr ""
@@ -2163,7 +2188,15 @@ msgid "Retype Password"
 msgstr ""
 
 #: src/components/Signup/SignupFormComponent.js
-msgid "By Clicking Sign up you accept our {t} and {p}"
+msgid "By Clicking"
+msgstr ""
+
+#: src/components/Signup/SignupFormComponent.js
+msgid " Sign up "
+msgstr ""
+
+#: src/components/Signup/SignupFormComponent.js
+msgid "you accept our {t} and {p}"
 msgstr ""
 
 #: src/components/Signup/SignupFormComponent.js
@@ -2286,8 +2319,11 @@ msgid "Problem with verification?"
 msgstr ""
 
 #: src/components/WalletCards/WalletCardComponent.js
-#: src/components/WalletRows/WalletRowComponent.js
 msgid "Current Balance"
+msgstr ""
+
+#: src/components/WalletCards/WalletCardComponent.js
+msgid "Value"
 msgstr ""
 
 #: src/components/WalletCards/WalletCardComponent.js
@@ -2412,6 +2448,10 @@ msgid "Must be bigger than {a}"
 msgstr ""
 
 #: src/helpers/formValidations.js
+msgid "Must be bigger than or equal to {a}"
+msgstr ""
+
+#: src/helpers/formValidations.js
 msgid "Must be less than {a}"
 msgstr ""
 
@@ -2449,6 +2489,10 @@ msgstr ""
 
 #: src/helpers/formValidations.js
 msgid "Time must be before {a}"
+msgstr ""
+
+#: src/layouts/Responsive/TrandingLayout/TradingLayoutCharts1280Px.js
+msgid "Depth Chart"
 msgstr ""
 
 #: src/redux/actions/affiliateActions.js
@@ -2560,6 +2604,10 @@ msgstr ""
 msgid "Your withdraw has been successfully canceled"
 msgstr ""
 
+#: src/redux/middlewares/themeMiddleware.js
+msgid "The site"
+msgstr ""
+
 #: src/redux/middlewares/wsConnectionMiddleware.js
 msgid "Connection with server lost. Attempting reconnect..."
 msgstr ""
@@ -2585,32 +2633,38 @@ msgid "for {Product2Symbol}"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js
+#: src/routeTemplates/milanAltTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "Dashboard"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js
+#: src/routeTemplates/milanAltTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "Exchange"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js
+#: src/routeTemplates/milanAltTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "Buy & Sell"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js
 #: src/routeTemplates/londonTemplate.js
+#: src/routeTemplates/milanAltTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "Wallets"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js
+#: src/routeTemplates/milanAltTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "Your Snapshot"
 msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js
+#: src/routeTemplates/milanAltTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "Market Data"
 msgstr ""
@@ -2621,6 +2675,7 @@ msgstr ""
 
 #: src/routeTemplates/basicTradingTemplate.js
 #: src/routeTemplates/londonTemplate.js
+#: src/routeTemplates/milanAltTemplate.js
 #: src/routeTemplates/retailTemplate.js
 msgid "Unfunded Accounts"
 msgstr ""

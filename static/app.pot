@@ -1760,10 +1760,6 @@ msgid "Confirmation"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
-msgid "Limit (Fill or Kill)"
-msgstr ""
-
-#: src/components/Retail/RetailBuySell/RetailOrderConfirmationModalComponent.js
 msgid "{product} to Buy"
 msgstr ""
 

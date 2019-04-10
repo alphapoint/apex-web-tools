@@ -9,12 +9,17 @@ const configFile = path.join(process.cwd(), 'local', 'config.js');
 
 function createTempFileForConfigTextValues() {
     require(configFile);
-    const {KYC, Footer} = window.APEXWebConfig;
+    const {KYC, Footer, Deposit} = window.APEXWebConfig;
 
     const stringsFromKyc = extractStrings(KYC);
-    const stringsFromFooterLinks = extractFooterStrings(Footer.links);
+    const stringsFromFooterLinks = Footer && Footer.links? extractFooterStrings(Footer.links):[[]];
+    const stringsFromDepositInstructions = Deposit? extractCurrencySpecifics(Deposit):[[]];
 
-    const result = [...stringsFromKyc, ...stringsFromFooterLinks].map(element => {
+    const result = [
+        ...stringsFromKyc, 
+        ...stringsFromFooterLinks, 
+        ...stringsFromDepositInstructions
+        ].map(element => {
         return `// this.context.t('${element}')`;
     });
 
@@ -44,6 +49,21 @@ function extractStrings(obj) {
 
 function extractFooterStrings(columns) {
     return [].concat.apply([], columns).map(item => item.text);
+}
+
+function extractCurrencySpecifics(obj) {
+  let extracted = [];
+  Object.keys(obj).forEach(key => {
+    obj === Object(obj) && Object.keys(obj[key]).forEach(subkey => {
+      subkey.match(/instructions/) && Object.keys(obj[key][subkey]).forEach(k => {
+        Object.keys(obj[key][subkey][k]).forEach(ins => {
+          k.match(/text/) && extracted.push(obj[key][subkey][k][ins]);
+          ins.match(/text/) && extracted.push(obj[key][subkey][k][ins]);
+        });
+      });
+    });
+  });
+  return extracted.length>0?extracted:[];
 }
 
 function cleanUp() {

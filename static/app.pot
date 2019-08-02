@@ -623,8 +623,13 @@ msgstr ""
 msgid "Type in code from your phone."
 msgstr ""
 
+#: src/components/EnableTwoFactorAuth/Enable2FAForm.js
+msgid "Copy seed"
+msgstr ""
+
 #: src/components/EnableTwoFactorAuth/Enable2FAModal.js
 #: src/components/EnableTwoFactorAuth/EnableTwoFactorAuthComponent.js
+#: src/components/EnableTwoFactorAuth/StandaloneEnable2FAModalContainer.js
 msgid "Enable Two-Factor Authentication"
 msgstr ""
 
@@ -2456,6 +2461,10 @@ msgid "Invalid email address"
 msgstr ""
 
 #: src/helpers/formValidations.js
+msgid "Must not contain whitespace"
+msgstr ""
+
+#: src/helpers/formValidations.js
 msgid "Input should only contain alphanumeric characters"
 msgstr ""
 
@@ -2613,7 +2622,7 @@ msgid "Code Rejected"
 msgstr ""
 
 #: src/redux/actions/userActions.js
-msgid "Two Factor Authenticated is enabled"
+msgid "Two Factor Authentication is enabled"
 msgstr ""
 
 #: src/redux/actions/userActions.js

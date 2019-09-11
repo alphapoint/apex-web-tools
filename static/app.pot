@@ -2453,6 +2453,10 @@ msgid "Please note that a destination tag may be required if you are withdrawing
 msgstr ""
 
 #: src/helpers/formValidations.js
+msgid "Required"
+msgstr ""
+
+#: src/helpers/formValidations.js
 msgid "Passwords do not match"
 msgstr ""
 

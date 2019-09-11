@@ -1188,6 +1188,7 @@ msgstr ""
 #: src/components/OrderHistoryComponents/DepositsStatusComponent.js
 #: src/components/OrderHistoryComponents/WithdrawStatusComponent.js
 #: src/components/RecentActivity/RecentActivityComponent.js
+#: src/components/Retail/RetailBuySell/BuySell/BuySellComponent.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
 #: src/components/Transfers/TransfersComponent.js
 #: src/components/WithdrawSidePaneComponents/WithdrawTemplateForm/WithdrawTemplateFormComponent.js
@@ -1760,12 +1761,12 @@ msgstr ""
 msgid "Choose a Crypto to Sell"
 msgstr ""
 
-#: src/components/Retail/RetailBuySell/BuySell/BuySellOrderButton/BuySellOrderButtonContainer.js
-msgid "Buy {product1Name} with {product2Name}"
+#: src/components/Retail/RetailBuySell/BuySell/BuySellOrderButton/BuySellOrderButtonComponent.js
+msgid "Buy {a} with {b}"
 msgstr ""
 
-#: src/components/Retail/RetailBuySell/BuySell/BuySellOrderButton/BuySellOrderButtonContainer.js
-msgid "Sell ${product1Name} for ${product2Name}"
+#: src/components/Retail/RetailBuySell/BuySell/BuySellOrderButton/BuySellOrderButtonComponent.js
+msgid "Sell {a} with {b}"
 msgstr ""
 
 #: src/components/Retail/RetailBuySell/BuySellInstrumentSelect/BuySellInstrumentSelectComponent.js
@@ -2370,6 +2371,14 @@ msgstr ""
 
 #: src/components/WalletDetails/WalletDetailsBackButtonComponent.js
 msgid "Back to Overview"
+msgstr ""
+
+#: src/components/WalletNavItems/CryptoNavItemsComponent.js
+msgid "send"
+msgstr ""
+
+#: src/components/WalletNavItems/CryptoNavItemsComponent.js
+msgid "receive"
 msgstr ""
 
 #: src/components/WithdrawSidePaneComponents/PaymentProcessors/HyphenWithdrawWorkflowComponent.js

@@ -1893,6 +1893,11 @@ msgid "A copy of this Deposit Ticket will be emailed to you"
 msgstr ""
 
 #: src/components/Retail/RetailSidePanes/FiatWithdraw/FiatWithdrawDetailsComponent.js
+#: src/components/SendReceiveSidePane/SendReceiveDetails/SendReceiveDetailsComponent.js
+msgid "Your current {a} Balance"
+msgstr ""
+
+#: src/components/Retail/RetailSidePanes/FiatWithdraw/FiatWithdrawDetailsComponent.js
 #: src/components/Retail/RetailSidePanes/FiatWithdraw/FiatWithdrawModalComponent.js
 msgid "Amount to Withdraw"
 msgstr ""
@@ -2379,6 +2384,14 @@ msgstr ""
 
 #: src/components/WalletNavItems/CryptoNavItemsComponent.js
 msgid "receive"
+msgstr ""
+
+#: src/components/WalletNavItems/FiatNavItemsComponent.js
+msgid "deposit"
+msgstr ""
+
+#: src/components/WalletNavItems/FiatNavItemsComponent.js
+msgid "withdraw"
 msgstr ""
 
 #: src/components/WithdrawSidePaneComponents/PaymentProcessors/HyphenWithdrawWorkflowComponent.js

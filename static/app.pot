@@ -2539,6 +2539,10 @@ msgid "File size must be under {a}mb"
 msgstr ""
 
 #: src/helpers/formValidations.js
+msgid "Must be 18 or older"
+msgstr ""
+
+#: src/helpers/formValidations.js
 msgid "Date must be before {a}"
 msgstr ""
 

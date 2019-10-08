@@ -708,6 +708,7 @@ msgstr ""
 
 #: src/components/EnableTwoFactorAuth/Enable2FAModal.js
 #: src/components/EnableTwoFactorAuth/EnableTwoFactorAuthComponent.js
+#: src/components/EnableTwoFactorAuth/StandaloneEnable2FAModalContainer.js
 msgid "Enable Two-Factor Authentication"
 msgstr ""
 

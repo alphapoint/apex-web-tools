@@ -3191,6 +3191,14 @@ msgstr ""
 msgid "Your order failed, please try again"
 msgstr ""
 
+#: src/redux/actions/orderHistoryActions.js
+msgid "Orders {n} cancelled"
+msgstr ""
+
+#: src/redux/actions/orderHistoryActions.js
+msgid "Order {n} cancelled"
+msgstr ""
+
 #: src/redux/actions/reportActions.js
 msgid "Single report was successfully created"
 msgstr ""

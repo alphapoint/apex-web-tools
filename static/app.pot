@@ -1151,7 +1151,7 @@ msgid "Ok"
 msgstr ""
 
 #: src/components/MarginBalances/MarginInstrumentBalancesTable/MarginInstrumentBalancesTableComponent.js
-msgid "Market Price (USD)"
+msgid "Market Price ({n})"
 msgstr ""
 
 #: src/components/MarginBalances/MarginInstrumentBalancesTable/MarginInstrumentBalancesTableComponent.js
@@ -1252,6 +1252,79 @@ msgstr ""
 msgid "Transfer"
 msgstr ""
 
+#: src/components/MarginClosePosition/EstimatedSettlementModal.js
+msgid "Owed Payment Amount:"
+msgstr ""
+
+#: src/components/MarginClosePosition/EstimatedSettlementModal.js
+msgid "Owed Payment Product Id:"
+msgstr ""
+
+#: src/components/MarginClosePosition/EstimatedSettlementModal.js
+msgid "Paying With Product Id:"
+msgstr ""
+
+#: src/components/MarginClosePosition/EstimatedSettlementModal.js
+msgid "Estimated Payment Quantity:"
+msgstr ""
+
+#: src/components/MarginClosePosition/EstimatedSettlementModal.js
+msgid "Settlement Price:"
+msgstr ""
+
+#: src/components/MarginClosePosition/EstimatedSettlementModal.js
+msgid "Owed Amount For Interest:"
+msgstr ""
+
+#: src/components/MarginClosePosition/EstimatedSettlementModal.js
+#: src/components/MarginClosePosition/MarginClosePositionModal.js
+msgid "Remaining Amount:"
+msgstr ""
+
+#: src/components/MarginClosePosition/EstimatedSettlementModal.js
+msgid "Interest Remaining:"
+msgstr ""
+
+#: src/components/MarginClosePosition/EstimatedSettlementModal.js
+msgid "Estimated Settlement"
+msgstr ""
+
+#: src/components/MarginClosePosition/EstimatedSettlementModal.js
+msgid "Close Position"
+msgstr ""
+
+#: src/components/MarginClosePosition/MarginClosePositionModal.js
+msgid "Position:"
+msgstr ""
+
+#: src/components/MarginClosePosition/MarginClosePositionModal.js
+msgid "Borrowed:"
+msgstr ""
+
+#: src/components/MarginClosePosition/MarginClosePositionModal.js
+msgid "Interest Accrued:"
+msgstr ""
+
+#: src/components/MarginClosePosition/MarginClosePositionModal.js
+msgid "Interest Paid:"
+msgstr ""
+
+#: src/components/MarginClosePosition/MarginClosePositionModal.js
+msgid "Margin Used:"
+msgstr ""
+
+#: src/components/MarginClosePosition/MarginClosePositionModal.js
+msgid "Position Value:"
+msgstr ""
+
+#: src/components/MarginClosePosition/MarginClosePositionModal.js
+msgid "Unrealized P&L:"
+msgstr ""
+
+#: src/components/MarginClosePosition/MarginClosePositionModal.js
+msgid "Confirm Close Position"
+msgstr ""
+
 #: src/components/MarginToggleButton/MarginToggleButtonComponent.js
 msgid "Trading Style:"
 msgstr ""
@@ -1291,7 +1364,7 @@ msgstr ""
 msgid "Loading"
 msgstr ""
 
-#: src/components/MarginTransferAssetModal/MarginTransferAssetsModalComponent.js
+#: src/components/MarginTransferAssetModal/MarginTransferAssetsModal.js
 msgid "Transfer Assets"
 msgstr ""
 
@@ -1491,8 +1564,11 @@ msgstr ""
 
 #: src/components/OrderHistoryComponents/ClosedPositions/ClosedPositionsComponent.js
 #: src/components/OrderHistoryComponents/OpenPositions/OpenPositionsComponent.js
-#: src/components/OrderHistoryComponents/PositionPayments/PositionPaymentsComponent.js
-msgid "Position ID"
+msgid "PID"
+msgstr ""
+
+#: src/components/OrderHistoryComponents/ClosedPositions/ClosedPositionsComponent.js
+msgid "Position Id"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/ClosedPositions/ClosedPositionsComponent.js
@@ -1510,12 +1586,7 @@ msgid "Position"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/ClosedPositions/ClosedPositionsComponent.js
-#: src/components/OrderHistoryComponents/FilledOrders/FilledOrdersComponent.js
-#: src/components/OrderHistoryComponents/InactiveOrders/InactiveOrdersComponent.js
-#: src/components/OrderHistoryComponents/OpenOrders/OpenOrdersComponent.js
-#: src/components/OrderHistoryComponents/OpenPositions/OpenPositionsComponent.js
-#: src/components/OrderHistoryComponents/TradeReports/TradeReportsComponent.js
-msgid "Size"
+msgid "Borrowed Amount"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/ClosedPositions/ClosedPositionsComponent.js
@@ -1585,6 +1656,14 @@ msgid "Side"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/FilledOrders/FilledOrdersComponent.js
+#: src/components/OrderHistoryComponents/InactiveOrders/InactiveOrdersComponent.js
+#: src/components/OrderHistoryComponents/OpenOrders/OpenOrdersComponent.js
+#: src/components/OrderHistoryComponents/OpenPositions/OpenPositionsComponent.js
+#: src/components/OrderHistoryComponents/TradeReports/TradeReportsComponent.js
+msgid "Size"
+msgstr ""
+
+#: src/components/OrderHistoryComponents/FilledOrders/FilledOrdersComponent.js
 msgid "Total"
 msgstr ""
 
@@ -1631,6 +1710,11 @@ msgstr ""
 
 #: src/components/OrderHistoryComponents/OpenOrders/OpenOrdersComponent.js
 msgid "Open Orders"
+msgstr ""
+
+#: src/components/OrderHistoryComponents/OpenPositions/OpenPositionsComponent.js
+#: src/components/OrderHistoryComponents/PositionPayments/PositionPaymentsComponent.js
+msgid "Position ID"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/OpenPositions/OpenPositionsComponent.js
@@ -2993,10 +3077,6 @@ msgstr ""
 
 #: src/layouts/MarginBalancesLayout/MarginBalancesLayout.js
 msgid "Balances by Product"
-msgstr ""
-
-#: src/layouts/MarginBalancesLayout/MarginBalancesLayout.js
-msgid "Please activate margin account"
 msgstr ""
 
 #: src/layouts/MarketOverviewLayout/MarketOverviewLayout.js

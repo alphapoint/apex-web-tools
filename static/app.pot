@@ -2987,6 +2987,10 @@ msgstr ""
 msgid "Your order has been successfully added"
 msgstr ""
 
+#: src/helpers/placeOrderHelper.js
+msgid "Your Order has been {n}"
+msgstr ""
+
 #: src/helpers/recentActivityHelper.js
 msgid "Deposited {a}"
 msgstr ""

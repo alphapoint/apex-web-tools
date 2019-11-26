@@ -449,15 +449,23 @@ msgid "Confirm Order"
 msgstr ""
 
 #: src/components/ConfirmLimitOrderModal/ConfirmLimitOrderModalComponent.js
-msgid "Please, confirm your Limir Order"
+msgid "Please, confirm your Limit Order"
 msgstr ""
 
 #: src/components/ConfirmLimitOrderModal/ConfirmLimitOrderModalComponent.js
-msgid "You trying to place order with `Limit price` below market price"
+msgid "You are trying to place an order with `Limit price` below market price"
 msgstr ""
 
 #: src/components/ConfirmLimitOrderModal/ConfirmLimitOrderModalComponent.js
-msgid "Please, confirm your order or exit"
+msgid "Your Limit Price:"
+msgstr ""
+
+#: src/components/ConfirmLimitOrderModal/ConfirmLimitOrderModalComponent.js
+msgid "Market Price:"
+msgstr ""
+
+#: src/components/ConfirmLimitOrderModal/ConfirmLimitOrderModalComponent.js
+msgid "Please confirm your order or exit"
 msgstr ""
 
 #: src/components/ConfirmOrderModal/ConfirmOrderModalComponent.js
@@ -1254,14 +1262,6 @@ msgstr ""
 
 #: src/components/MarginClosePosition/EstimatedSettlementModal.js
 msgid "Owed Payment Amount:"
-msgstr ""
-
-#: src/components/MarginClosePosition/EstimatedSettlementModal.js
-msgid "Owed Payment Product Id:"
-msgstr ""
-
-#: src/components/MarginClosePosition/EstimatedSettlementModal.js
-msgid "Paying With Product Id:"
 msgstr ""
 
 #: src/components/MarginClosePosition/EstimatedSettlementModal.js
@@ -2418,6 +2418,10 @@ msgstr ""
 #: src/components/SendReceiveSidePane/SendAddress/SendAddressComponent.js
 #: src/components/WithdrawSidePaneComponents/WithdrawForm/WithdrawFormComponent.js
 msgid "Options for withdraw"
+msgstr ""
+
+#: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js
+msgid "0 balance available"
 msgstr ""
 
 #: src/components/SendReceiveSidePane/SendForm/SendFormComponent.js

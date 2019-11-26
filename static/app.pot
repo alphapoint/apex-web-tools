@@ -2262,8 +2262,6 @@ msgid "Price per unit"
 msgstr ""
 
 #: src/components/Retail/RetailSettings/RegionForm/RetailRegionStaticComponent.js
-#: src/components/Settings/ProfileAndSecurity/RegionSettingsCard/RegionSettings/RegionConfirmComponent.js
-#: src/components/Settings/ProfileAndSecurity/RegionSettingsCard/RegionSettings/RegionSettingsComponent.js
 msgid "Display Currency"
 msgstr ""
 
@@ -2546,14 +2544,6 @@ msgstr ""
 
 #: src/components/Settings/ProfileAndSecurity/PasswordSettingsCard/ResetPasswordForm/ResetPasswordFormComponent.js
 msgid "To change your password, we will send you an email that will allow you to access the Reset Password feature. Click the button below to receive the email."
-msgstr ""
-
-#: src/components/Settings/ProfileAndSecurity/RegionSettingsCard/RegionSettings/RegionFormComponent.js
-msgid "Base currency misconfigured. Contact the site’s operators."
-msgstr ""
-
-#: src/components/Settings/ProfileAndSecurity/RegionSettingsCard/RegionSettings/RegionFormComponent.js
-msgid "Base Currency"
 msgstr ""
 
 #: src/components/Settings/ProfileAndSecurity/RegionSettingsCard/RegionSettings/RegionSettingsComponent.js

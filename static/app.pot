@@ -498,6 +498,7 @@ msgid "Price"
 msgstr ""
 
 #: src/components/ConfirmOrderModal/ConfirmOrderModalComponent.js
+#: src/components/OrderHistoryComponents/OpenPositions/OpenPositionsComponent.js
 #: src/components/WalletCards/WalletCardComponent.js
 msgid "Value"
 msgstr ""
@@ -763,8 +764,9 @@ msgstr ""
 
 #: src/components/EotcPriceChart/EotcPriceChartComponent.js
 #: src/layouts/Responsive/TrandingLayout/TradingLayoutCharts1280Px.js
+#: src/layouts/Responsive/TrandingLayout/TradingLayoutContent1280Px.js
+#: src/layouts/Responsive/TrandingLayout/TradingLayoutContent1440Px.js
 #: src/layouts/SimpleTradingLayout/SimpleTradingLayout.js
-#: src/layouts/TradingLayout/TradingLayout.js
 msgid "Price Chart"
 msgstr ""
 
@@ -1343,7 +1345,6 @@ msgstr ""
 
 #: src/components/MarginTransferAssetModal/MarginTransferAssetsFormComponent.js
 #: src/components/OrderHistoryComponents/DepositsStatus/DepositsStatusComponent.js
-#: src/components/OrderHistoryComponents/PositionPayments/PositionPaymentsComponent.js
 #: src/components/OrderHistoryComponents/WithdrawStatus/WithdrawStatusComponent.js
 #: src/components/SendReceiveSidePane/SendReceiveConfirmModal/SendReceiveConfirmModalComponent.js
 #: src/components/Transfers/TransfersComponent.js
@@ -1563,7 +1564,6 @@ msgid "Report Block Trade"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/ClosedPositions/ClosedPositionsComponent.js
-#: src/components/OrderHistoryComponents/OpenPositions/OpenPositionsComponent.js
 msgid "PID"
 msgstr ""
 
@@ -1658,7 +1658,6 @@ msgstr ""
 #: src/components/OrderHistoryComponents/FilledOrders/FilledOrdersComponent.js
 #: src/components/OrderHistoryComponents/InactiveOrders/InactiveOrdersComponent.js
 #: src/components/OrderHistoryComponents/OpenOrders/OpenOrdersComponent.js
-#: src/components/OrderHistoryComponents/OpenPositions/OpenPositionsComponent.js
 #: src/components/OrderHistoryComponents/TradeReports/TradeReportsComponent.js
 msgid "Size"
 msgstr ""
@@ -1713,11 +1712,6 @@ msgid "Open Orders"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/OpenPositions/OpenPositionsComponent.js
-#: src/components/OrderHistoryComponents/PositionPayments/PositionPaymentsComponent.js
-msgid "Position ID"
-msgstr ""
-
-#: src/components/OrderHistoryComponents/OpenPositions/OpenPositionsComponent.js
 msgid "Unrealized P&L"
 msgstr ""
 
@@ -1736,7 +1730,23 @@ msgid "Open Positions"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/PositionPayments/PositionPaymentsComponent.js
+msgid "Position ID"
+msgstr ""
+
+#: src/components/OrderHistoryComponents/PositionPayments/PositionPaymentsComponent.js
+msgid "Converted From"
+msgstr ""
+
+#: src/components/OrderHistoryComponents/PositionPayments/PositionPaymentsComponent.js
+msgid "Payment Amount"
+msgstr ""
+
+#: src/components/OrderHistoryComponents/PositionPayments/PositionPaymentsComponent.js
 msgid "Payment ID"
+msgstr ""
+
+#: src/components/OrderHistoryComponents/PositionPayments/PositionPaymentsComponent.js
+msgid "Payment Time"
 msgstr ""
 
 #: src/components/OrderHistoryComponents/PositionPayments/PositionPaymentsComponent.js

@@ -2912,6 +2912,10 @@ msgid "Please note that a destination tag may be required if you are withdrawing
 msgstr ""
 
 #: src/helpers/formValidations.js
+msgid "Required"
+msgstr ""
+
+#: src/helpers/formValidations.js
 msgid "Passwords do not match"
 msgstr ""
 
@@ -3127,7 +3131,7 @@ msgid "Trading Fees"
 msgstr ""
 
 #: src/layouts/SettingsLayout/ChildrenLayouts/LoyaltyTokenLayout.js
-msgid "Using LTC for transaction fees applies a discount to your trading fee. If you hold LTC in your account, you have the option of having your trading fees automatically subtracted from your LTC balance."
+msgid "Using the loyalty token for transaction fees applies a discount to your trading fee. If you hold the loyalty token in your account, you have the option of having your trading fees automatically subtracted from your loyalty token balance."
 msgstr ""
 
 #: src/layouts/TradeReportLayout/TradeReportLayout.js

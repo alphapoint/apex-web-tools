@@ -1092,6 +1092,10 @@ msgid "Password"
 msgstr ""
 
 #: src/components/Login/LoginFormComponent.js
+msgid "Gateway"
+msgstr ""
+
+#: src/components/Login/LoginFormComponent.js
 #: src/components/ProblemLoggingIn/ProblemLoggingInFormComponent.js
 #: src/components/SimpleLoginForm/SimpleLoginFormComponent.js
 msgid "Log In"
@@ -1106,12 +1110,6 @@ msgstr ""
 
 #: src/components/Login/LoginFormComponent.js
 msgid "Problem Logging In?"
-msgstr ""
-
-#: src/components/Login/LoginFormContainer.js
-#: src/components/Login/LoginFormContainer.test.js
-#: src/components/SimpleLoginForm/SimpleLoginFormContainer.js
-msgid "We were unable to login, check your internet connection and try refreshing the page."
 msgstr ""
 
 #: src/components/LoyaltyToken/LoyaltyTokenComponent.js
@@ -2703,6 +2701,10 @@ msgstr ""
 
 #: src/components/Signup/SignupFormComponent.js
 msgid "Forgot Password?"
+msgstr ""
+
+#: src/components/SimpleLoginForm/SimpleLoginFormContainer.js
+msgid "We were unable to login, check your internet connection and try refreshing the page."
 msgstr ""
 
 #: src/components/ThemeEditor/ThemeEditorComponent.js
